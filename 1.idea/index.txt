@@ -1,0 +1,215 @@
+黑马程序员-IDEA快速使用入门视频
+
+1.jdk jre安装看 gist/8.ubuntu_java.txt
+===============================================================================================
+===============================================================================================
+2.idea配置
+2.1 idea配置jdk: 欢迎页->configure->project defaults->project structure中使用new新的JDK
+2.2 appearance & behavior->system settings-> 关闭 reopen last project on startup
+2.3 idea->build project是说去生成class文件在写java web 时候是自动构建的只有写微服务的时候才要自己来build
+
+===============================================================================================
+===============================================================================================
+3.javese
+3.1 new project直接next
+3.2 src目录下 new java class 名称为com.ybx.hello  其中com.ybx是包名 hello是类名
+   psvm:创建main函数 sout:创建println
+3.3 run
+
+===============================================================================================
+===============================================================================================
+4.安装tomcat
+4.1 download tomcat,安装到/root/soft/apache-tomcat-9.0.14
+4.2 gist中指定JAVA_HOME和JAVA_HOME的bin到PATH
+4.3 直接启动tomcat/bin/startup.sh
+4.4 127.0.0.1:8080
+4.3 直接启动tomcat/bin/shutdown.sh
+
+===============================================================================================
+===============================================================================================
+5.javeweb(第一种发布java项目,使用自己手动安装的tomcat)
+5.1 new project 项目名javaweb_test
+   javaEE:选javaEE5
+   Web Application:其实就是servlet版本
+
+5.2 添加tomcat
+   edit configurations打开run/debug configurations页面的Server选项卡
+   加号添加tomcat server--> application server:/root/soft/apache-tomcat-9.0.14
+
+5.3 关闭after launch 打开浏览器
+
+5.4 文件修改后重新部署
+   on 'Update' option:Update classes and resources
+   on frame deactivation: Update classes and resources
+   意思是当类更新或者资源更新立刻能看到变化,注意新增方法或者资源可能看不到效果
+
+5.5 Waring artifacts marked for development问题的处理
+	点击fix到 run/debug configurations页面的Deployment选项卡选中javaweb_test这个项目进行部署
+
+===============================================================================================
+===============================================================================================
+6.javaweb添加第三方库
+6.1 创建javaweb_test/web/WEB-INF/lib 添加 三方jar到此
+6.2 idea中点击project structure->Project Settings->Libraries->java 选去创建的lib文件夹
+6.2 idea中点击project structure->Project Settings->Modules 看到lib进行选取
+===============================================================================================
+===============================================================================================
+7.创建servlet
+7.1 还是之前javaweb中的javaweb_test项目
+7.2 javaweb_test/src中New->servlet
+	Name: helloServlet
+	Package: com.ybx.web
+	点击OK
+7.3 选中javaweb_test项目然后点击Project Structure新页面->Modules选中javaweb_test->右边+ -> Library->java->选中tomcat
+
+7.4 /src/com/ybx/web/HelloServlet.java写代码
+7.5 /web/WEB-INF/web.xml 添加servlet-mapping name和访问路径
+7.6 127.0.0.1:8080/hello
+===============================================================================================
+===============================================================================================
+8.maven配置(maven就是java的包管理)
+8.1 apt install maven或者独立自己安装maven(例如安装在/root/soft/maven/apache-maven-3.5.0)
+8.2 欢迎页 Configure->Settings->Build,Execution,Deployment->Build Tools->Maven->修改Bundled(Maven3) 为自己安装的Maven的目录
+8.3 欢迎页 Configure->Settings->Build,Execution,Deployment->Build Tools->Maven->修改Settings为 /root/soft/maven/apache-maven-3.5.0/conf/settings.conf
+===============================================================================================
+===============================================================================================
+9.maven创建javase
+9.1 欢迎页 Configure->Settings->Build,Execution,Deployment->Build Tools->Maven->Runner->VM Options写入 -DarchetypeCatalog=internal
+9.2 new project->Maven->Create from archetype->org.apache.maven.archetypes:maven-archetype-quickstart
+    GroupId:com.ybx.maven
+	ArtifactId:maven_javase   (建议使用下划线,后边Project name生成的名字将还是这个)
+	点击next
+
+	Project name:maven_javase
+	Project location:~/www/java_www/maven_javase
+9.3 打开项目后 Maven projects need to be imported 选enable auto-import
+9.4 尝试添加gson.jar
+	pox.xml:中添加dependency
+	<dependency>
+		<groupId>com.google.code.gson</groupId>
+		<artifactId>gson</artifactId>
+		<version>2.8.2</version>
+	</dependency>
+===============================================================================================
+===============================================================================================
+10.maven菜单项
+===============================================================================================
+===============================================================================================
+11.maven javaweb(第二种发布java项目的方式,用maven 插件方式使用tomcat部署项目)
+11.1 new project->Maven->Create from archetype->org.apache.maven.archetypes:maven-archetype-webapp
+    GroupId:com.ybx.maven
+	ArtifactId:maven_javaweb
+	点击next
+	
+	Project name:maven_javaweb
+	Project location:~/www/java_www/maven_javaweb
+11.2 创建文件夹maven_javaweb/src/main/java,右键java文件夹 mark directory as ->Sources Root,这个文件夹变成蓝色,可以用来写java代码
+
+11.3 pom.xml添加
+<plugin>
+  <groupId>org.apache.tomcat.maven</groupId>
+  <artifactId>tomcat7-maven-plugin</artifactId>
+  <version>2.2</version>
+  <configuration>
+    <port>9990</port>
+    <path>/</path>
+  </configuration>
+</plugin>
+
+11.4 打开右侧工具Maven Projects
+	lifecycle:是maven命令
+ 	Plugins:是插件
+	Execurte Maven Goal中Command line:tomcat7:run
+
+11.5 访问127.0.0.0.1:9990
+===============================================================================================
+===============================================================================================
+12.聚合项目
+12.1 架构
+ybx_mall做统一版本管理,有两个子模块ybx_portal前台模块和ybx_back后台模块
+ybx_portal前台模块: ybx_portal_dao,ybx_portal_service,ybx_portal_web
+ybx_back后台模块: ybx_back_dao, ybx_back_service, ybx_back_web
+
+ybx_mall只是版本管理，它和ybx_portal,ybx_back并没有关系
+ybx_portal下的3个模块都是和自己真实关联的
+ybx_back下的3个模块都是和自己真实关联的
+
+xxx_service依赖xxx_dao
+xxx_web依赖xxx_service
+
+xxx_dao和xxx_service打包成jar
+xxx_web打包成war:对外提供访问
+
+===============================================================================================
+12.2 创建ybx_mall
+new project->Maven->Create from archetype->org.apache.maven.archetypes:maven-archetype-site
+    GroupId:com.ybx
+	ArtifactId:ybx_mall
+	点击next
+	点击next
+	点击next
+	finish
+
+===============================================================================================
+12.3 创建 ybx_portal
+1.创建 ybx_portal
+选中ybx_mall, new Module->Maven->Create from archetype->org.apache.maven.archetypes:maven-archetype-site
+打开New Module页面
+Add as module to 修改成 <none> 
+ArtifactId: ybx_portal
+next
+next
+Content root: /root/www/java_www/ybx_mall/ybx_portal 改成 /root/www/java_www/ybx_portal 
+Module file location: /root/www/java_www/ybx_mall/ybx_portal 改成 /root/www/java_www/ybx_portal
+
+2.创建ybx_portal中的ybx_portal_dao 
+选中ybx_portal,new module-> Maven->Create from archetype->org.apache.maven.archetypes:maven-archetype-quickstart
+ArtifactId: ybx_portal_dao
+next
+next
+Content root:/root/www/java_www/ybx_portal/ybx_protal_dao
+Module file location:/root/www/java_www/ybx_portal/ybx_protal_dao
+Finish
+
+3.创建ybx_portal中的ybx_portal_service
+同上
+
+4.让ybx_portal_service依赖ybx_portal_dao
+ybx_protal/ybx_protal_service/pom.xml添加
+<dependency>
+    <groupId>com.ybx</groupId>
+    <artifactId>ybx_protal_dao</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
+
+4.创建ybx_portal中的ybx_portal_web
+选中ybx_portal,new module-> Maven->Create from archetype->org.apache.maven.archetypes:maven-archetype-webapp
+ArtifactId: ybx_portal_web
+next
+next
+Content root:/root/www/java_www/ybx_portal/ybx_protal_web
+Module file location:/root/www/java_www/ybx_portal/ybx_protal_web
+Finish
+
+创建文件夹 ybx_protal/ybx_portal_web/src/main/java,右键java文件夹 mark directory as ->Sources Root,这个文件夹变成蓝色,可以在里面写java代码
+
+4.让ybx_portal_web依赖ybx_portal_service
+ybx_protal/ybx_protal_web/pom.xml添加
+<dependency>
+    <groupId>com.ybx</groupId>
+    <artifactId>ybx_protal_service</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
+
+===============================================================================================
+
+12.4 创建 ybx_back
+同12.3
+===============================================================================================
+===============================================================================================
+
+===============================================================================================
+===============================================================================================
+===============================================================================================
+===============================================================================================
+===============================================================================================

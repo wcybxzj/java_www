@@ -1,0 +1,151 @@
+马士兵大数据之zookeeper
+
+1台客户端:
+client:192.168.1.177
+3台机器做集群:
+node0:192.168.1.178
+node1:192.168.1.179
+node2:192.168.1.180
+================================================================
+1.下载到3台机器 要组成zookeeper集群:
+http://mirror.bit.edu.cn/apache/zookeeper/zookeeper-3.4.13/
+================================================================
+2.zookeeper:
+组成一个集群所有机器一起对外服务
+内存中有一份数据,硬盘有一份数据
+================================================================
+3.分析zoo.cfg
+cp zoo_sample.cfg zoo.cfg
+tickTime:计时单位
+initLimit:启动时候的消耗几个计时单位
+dataDir:是日志目录,生产环境最好别用/tmp/zookeeper
+clientPort:2182是提供给客户端的
+================================================================
+4.所有机器的zoo.cfg末尾增加数据,2888是集群节点互相通信用 3888是集群选举用
+server.1=192.168.1.178:2888:3888
+server.2=192.168.1.179:2888:3888
+server.3=192.168.1.180:2888:3888
+================================================================
+5.所有机器创建需要的数据目录
+mkdir /tmp/zookeeper
+cd /tmp/zookeeper
+================================================================
+6.每台机器的创建myid文件
+178:
+cat /tmp/zookeeper/myid
+1
+
+179:
+cat /tmp/zookeeper/myid
+2
+
+180:
+cat /tmp/zookeeper/myid
+3
+================================================================
+7.启动zookeeper
+所有机器
+cd /root/soft/zookeeper-3.4.13/bin
+./zkServer.sh start
+
+================================================================
+8.三台机器jps:
+178:
+jps
+3040 QuorumPeerMain
+3137 Jps
+
+179:
+jps
+3149 Jps
+3054 QuorumPeerMain
+
+180:
+jps
+3140 Jps
+3036 QuorumPeerMain
+
+如果没看到QuorumPeerMain 可以看zookeeper.out启动情况查问题
+================================================================
+9.zookeeper其他命令
+./zkServer.sh status
+178,179是follwer
+180是leader
+
+./zkServer.sh stop
+================================================================
+10.zk集群
+最少3台机器,不建议偶数
+无论多少机器都只有1个leader
+================================================================
+11.模拟leader挂了
+180:
+kill -9 3036
+
+179:成为新leader
+================================================================
+12.zookeeper如果集群中超过一半节点挂了集群就不可用了
+================================================================
+13.客户端连接
+177:连接那个服务节点都可以
+./zkCli.sh -server 192.168.1.178:2181
+
+help 查看可以执行的命令
+
+ls /
+[zookeeper]
+
+创建app1节点数据是appinfo
+create /app1 appinfo
+
+创建app1节点数据是appconfiginfo
+create /app1/config appconfiginfo
+
+ls /
+[zookeeper, app1]
+
+ls /app1
+[config]
+
+get /zookeeper
+
+get /app1
+appinfo
+
+get /app1/config
+appconfiginfo
+
+set /app1 change_app1_content
+
+================================================================
+14.idea做一个maven项目来用zookeeper
+1. 欢迎页 Configure->Settings->Build,Execution,Deployment->Build Tools->Maven->Runner->VM Options写入 - DarchetypeCatalog=internal
+
+2.new->maven项目->不使用create from archetype
+GroupId:com.ybx.maven
+ArtifactId:maven_zk
+点击next
+
+Project name:maven_zk
+Project location:~/www/java_www/maven_zk
+
+3.打开项目后 Maven projects need to be imported 选enable auto-import
+尝试添加zookeeper,可能需要设置代理
+pox.xml:中添加dependency
+<dependency>
+    <groupId>org.apache.zookeeper</groupId>
+    <artifactId>zookeeper</artifactId>
+    <version>3.4.6</version>
+</dependency>
+如果不行idea右边找maven projects 下载
+
+4.写一个简单的zk客户端代码
+去maven_zk/src/main/java下先创建名字为zookeeper的package
+去maven_zk/src/main/java/创建ZkClient java class
+
+5.java实现用zookeeper 实现HA
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================

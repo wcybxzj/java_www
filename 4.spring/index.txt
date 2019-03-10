@@ -1,0 +1,154 @@
+视频:【极客学院】一天学会SpringMVC框架
+
+资料: 
+https://www.cnblogs.com/wormday/p/8435617.html
+https://blog.csdn.net/qq_35155205/article/details/68484580
+
+==============================================================================================
+1.创建项目1.helloworld
+idea创建springmvc项目
+
+==============================================================================================
+2.edit configurations
+添加tomcat local 名称tm001
+Deployment添加1.helloworld:war exploded
+
+==============================================================================================
+3.run tomcat
+报错:java.lang.ClassNotFoundException: org.springframework.web.context.ContextLoaderListener
+project structure->Artifacts最下面有Fix->add all missing dependencies of ........
+
+==============================================================================================
+4.访问:193.168.1.177 不报错了 内容是$END$
+
+==============================================================================================
+5.MVC添加Controller, springmvc在默认包中不能运行
+idea中src创建package随便起个名字ybx.springmvc.helloworld
+再这个包下新建Java Class文件 HiController
+文件内容:
+package ybx.springmvc.helloworld;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+//http://localhost:8080/hi/say.form
+@Controller
+@RequestMapping("/hi")
+public class HiController {
+    @RequestMapping("/say")
+    public String say() {
+        return "/WEB-INF/jsp/say.jsp";
+    }
+}
+
+==============================================================================================
+6.修改 url-pattern（web.xml）
+web\WEB-INF\web.xml分析:
+有关于ServletMapping的设置，通过这个设置，可以配置那些类型的url用那些servlet来处理
+<servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+	<servlet-name>dispatcher</servlet-name>
+	<url-pattern>*.form</url-pattern>
+</servlet-mapping>
+结合这一段xml，我们可以看到,IDEA默认帮我配置了一个名字叫做dispatcher的Servlet
+这个Servlet使用org.springframework.web.servlet.DispatcherServlet这个类来处理
+这个Servlet对应的Url是*.form
+如果你跟我一样不喜欢每个MVC Url后边都带一个form，可以改成斜杠
+<url-pattern>/</url-pattern>
+==============================================================================================
+
+7.访问 192.168.1.177:8080/hi/say
+chrome:报错404
+idea:报错
+WARNING [] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/hi/say] in DispatcherServlet with name 'dispatcher'
+
+==============================================================================================
+8.配置 dispatcher-servlet.xml:
+让Spring找到对应的Controller
+
+在已经存在的<beans></beans>中间加上
+<context:component-scan base-package="wormday.springmvc.helloworld"/>
+
+在bean标签里加入
+xmlns:context=http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd"
+
+最终:
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="ybx.springmvc.helloworld"/>
+</beans>
+
+==============================================================================================
+9.访问 192.168.1.177:8080/hi/say
+chrome:还是报错404
+但是这次说 /WEB-INF/jsp/say.jsp not found
+
+==============================================================================================
+10.去创建缺少的View文件
+创建jsp路径 新增say.jsp文件
+1.helloworld/web/WEB-INF/jsp/say.jsp
+
+==============================================================================================
+11.访问 192.168.1.177:8080/hi/say
+成功
+
+==============================================================================================
+12.HiController.java 如果返回模板时不想返回全路径只想返回模板名称的时候
+dispatcher-servlet.xml:
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="ybx.springmvc.helloworld"/>
+    <!--指定视图解析器控制器 用处是控制器返回的时候可以只制定模板名称-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 视图的路径 -->
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <!-- 视图名称后缀  -->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+</beans>
+==============================================================================================
+13.通过Model向View传值
+修改HiController.java:
+package ybx.springmvc.helloworld;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model; // 这里导入了一个Model类
+import org.springframework.web.bind.annotation.RequestMapping;
+//http://localhost:8080/hi/say.form
+@Controller
+@RequestMapping("/hi")
+public class HiController {
+    @RequestMapping("/say")
+    public String say(Model model) {// 参数中传入Model
+        model.addAttribute("name","wormday"); // 指定Model的值
+        model.addAttribute("url","http://www.cnblogs.com/wormday/p/8435617.html"); // 指定Model的值
+        //return "/WEB-INF/jsp/say.jsp";
+        return "say";
+    }
+}
+
+修改1.helloworld/web/WEB-INF/jsp/say.jsp:
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+hello world,${name}
+<br/>${url}</body>
+</html>
