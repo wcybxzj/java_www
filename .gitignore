@@ -1,0 +1,6 @@
+# Operating System Files 
+*.DS_Store 
+
+# Build Artifacts 
+**/target/
+**/out/
