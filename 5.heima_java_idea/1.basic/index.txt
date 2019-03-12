@@ -19,3 +19,6 @@ day04-code.iml:是idea的配置,没用
 选中day04-code/src
 右键new package
 包名:cn.itcast.day04.demo01 注意必须用点
+
+4.创建java代码
+选中package->右键java class->名字
