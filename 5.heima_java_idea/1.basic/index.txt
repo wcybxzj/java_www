@@ -1,0 +1,21 @@
+1.所有基础部分的代码都放这个项目
+new project->empty project
+项目名:11.basic-code
+项目路径:/root/www/java_www/5.heima_java_idea/1.basic/11.idea-basic-code
+
+2.每天的课程做成一个模块
+project structrure->new module->java
+module name:day04-code
+Content root:
+/root/www/java_www/5.heima_java_idea/1.basic/11.idea-basic-code/day04-code
+Module file location:
+/root/www/java_www/5.heima_java_idea/1.basic/11.idea-basic-code/day04-code
+点击finish
+点击ok
+day04-code/src:里面写代码
+day04-code.iml:是idea的配置,没用
+
+3.创建package
+选中day04-code/src
+右键new package
+包名:cn.itcast.day04.demo01 注意必须用点
