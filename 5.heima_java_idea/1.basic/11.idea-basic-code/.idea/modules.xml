@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day04-code/day04-code.iml" filepath="$PROJECT_DIR$/day04-code/day04-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day05-code/day05-code.iml" filepath="$PROJECT_DIR$/day05-code/day05-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day06-code/day06-code.iml" filepath="$PROJECT_DIR$/day06-code/day06-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day07-code/day07-code.iml" filepath="$PROJECT_DIR$/day07-code/day07-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04-idea-func/day04-idea-func.iml" filepath="$PROJECT_DIR$/day04-idea-func/day04-idea-func.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-array/day05-array.iml" filepath="$PROJECT_DIR$/day05-array/day05-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06-class-obj/day06-class-obj.iml" filepath="$PROJECT_DIR$/day06-class-obj/day06-class-obj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07-Scanner-Random-ArrayList/day07-Scanner-Random-ArrayList.iml" filepath="$PROJECT_DIR$/day07-Scanner-Random-ArrayList/day07-Scanner-Random-ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08-string-static-array-math/day08-string-static-array-math.iml" filepath="$PROJECT_DIR$/day08-string-static-array-math/day08-string-static-array-math.iml" />
     </modules>
   </component>
 </project>
