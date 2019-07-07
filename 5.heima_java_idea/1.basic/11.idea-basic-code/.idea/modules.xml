@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/day06-class-obj/day06-class-obj.iml" filepath="$PROJECT_DIR$/day06-class-obj/day06-class-obj.iml" />
       <module fileurl="file://$PROJECT_DIR$/day07-Scanner-Random-ArrayList/day07-Scanner-Random-ArrayList.iml" filepath="$PROJECT_DIR$/day07-Scanner-Random-ArrayList/day07-Scanner-Random-ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08-string-static-array-math/day08-string-static-array-math.iml" filepath="$PROJECT_DIR$/day08-string-static-array-math/day08-string-static-array-math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09-extends-super-this-abstract/day09-extends-super-this-abstract.iml" filepath="$PROJECT_DIR$/day09-extends-super-this-abstract/day09-extends-super-this-abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10-interface-polymorphism/day10-interface-polymorphism.iml" filepath="$PROJECT_DIR$/day10-interface-polymorphism/day10-interface-polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day11-final-permission-innerclass/day11-final-permission-innerclass.iml" filepath="$PROJECT_DIR$/day11-final-permission-innerclass/day11-final-permission-innerclass.iml" />
     </modules>
   </component>
 </project>

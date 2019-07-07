@@ -1,0 +1,14 @@
+maven安装第三方jar包
+https://download.csdn.net/download/weixin_28890313/10325911?utm_source=bbsseo
+
+方式1:进入第三方jar目录进行导入
+cd /Users/ybx/Downloads/jar/Alibaba_FastJSON
+mvn install:install-file -DgroupId=com.alibaba -DartifactId=fastjson -Dversion=1.1.37 -Dfile=fastjson-1.1.37.jar -Dpackaging=jar
+
+方式2:直接导入第三方包
+mvn install:install-file  -Dfile=/Users/ybx/Downloads/jar/Alibaba_FastJSON/fastjson-1.1.37.jar -DgroupId=com.alibaba -DartifactId=fastjson -Dversion=1.1.37  -Dpackaging=jar
+
+mvn install:install-file  -Dfile=/Users/ybx/Downloads/jar/alipay-sdk-java-3.7.110.ALL.jar -DgroupId=com.alipay.sdk -DartifactId=alipay-sdk-java   -Dversion=3.7.110.ALL  -Dpackaging=jar
+
+安装成功:
+ls /Users/ybx/.m2/repository/com/alibaba/fastjson

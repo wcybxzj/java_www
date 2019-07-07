@@ -1,619 +1,298 @@
-½×¶Î1 Java»ù´¡
-1-1 ¾ÍÒµ¿Î(2.0)-Java»ù´¡Óï·¨
-µÚ1½Ú javaÔËÐÐ»·¾³
-day01_01_JavaÓïÑÔ·¢Õ¹Ê·
-day01_02_¼ÆËã»ú½øÖÆ×ª»»
-day01_03_¼ÆËã»ú´æ´¢µ¥Ôª
-day01_04_ÃüÁîÌáÊ¾·û_»ù±¾½éÉÜ
-day01_05_ÃüÁîÌáÊ¾·û_³£ÓÃÃüÁî
-day01_06_JavaÓïÑÔµÄ¿çÆ½Ì¨ÐÔ
-day01_07_JDK¡¢JREÓëJVM
-day01_08_JDKµÄÏÂÔØÓë°²×°
-day01_09_»·¾³±äÁ¿µÄÅäÖÃ
-Ð¡½Ú²âÊÔ
-µÚ2½Ú HelloWorld°¸Àý
-day01_10_HelloWorld³ÌÐòµÄ´úÂë±àÐ´
-day01_11_HelloWorld³ÌÐòµÄ±àÒëÔËÐÐ
-day01_12_HelloWorldµÄ³£¼ûÎÊÌâÓëNotepad++Ê¹ÓÃ
-day01_13_³ÌÐò×¢ÊÍÓëHelloWorldËµÃ÷
-Ð¡½Ú²âÊÔ
-µÚ3½Ú ¹Ø¼ü×Ö&±êÊ¶·û
-		day01_14_¹Ø¼ü×ÖµÄ¸ÅÄîÓëÌØÕ÷
-day01_15_±êÊ¶·ûµÄ¸ÅÄîÓë¹æÔò
-Ð¡½Ú²âÊÔ
-µÚ4½Ú ³£Á¿&±äÁ¿
-day01_16_³£Á¿µÄ¸ÅÄîÓë·ÖÀà
-day01_17_³£Á¿µÄ´òÓ¡Êä³ö
-day01_18_»ù±¾Êý¾ÝÀàÐÍ
-day01_19_±äÁ¿µÄ¸ÅÄîÓë¶¨Òå¸ñÊ½
-day01_20_±äÁ¿µÄ»ù±¾Ê¹ÓÃ
-day01_21_±äÁ¿µÄ×¢ÒâÊÂÏî
-Ð¡½Ú²âÊÔ
-¿ÎºóÁ·Ï°
-µÚ5½Ú Êý¾ÝÀàÐÍ×ª»»
-		day02_01_Êý¾ÝÀàÐÍ×ª»»_×Ô¶¯×ª»»
-day02_02_Êý¾ÝÀàÐÍ×ª»»_Ç¿ÖÆ×ª»»
-day02_03_Êý¾ÝÀàÐÍ×ª»»_×¢ÒâÊÂÏî
-day02_04_ASCII±àÂë±í
-Ð¡½Ú²âÊÔ
-¿ÎºóÁ·Ï°
+é˜¶æ®µ1 JavaåŸºç¡€
+1-1 å°±ä¸šè¯¾(2.0)-JavaåŸºç¡€è¯­æ³•
 
-µÚ6½Ú ÔËËã·û
-		day02_05_ËãÊõÔËËã·û_ËÄÔòÓëÈ¡Ä£ÔËËã
-day02_06_ËãÊõÔËËã·û_¼ÓºÅµÄ¶àÖÖÓÃ·¨
-day02_07_ËãÊõÔËËã·û_×ÔÔö×Ô¼õÔËËã·û
-day02_08_¸³ÖµÔËËã·û
-day02_09_±È½ÏÔËËã·û
-day02_10_Âß¼­ÔËËã·û
-day02_11_ÈýÔªÔËËã·û
-Ð¡½Ú²âÊÔ
-¿ÎºóÁ·Ï°
-µÚ7½Ú ·½·¨ÈëÃÅ
-		day02_12_·½·¨ÈëÃÅ_¸ÅÄîÒýÈë
-day02_13_·½·¨ÈëÃÅ_·½·¨µÄ¶¨Òå
-day02_14_·½·¨ÈëÃÅ_·½·¨µÄµ÷ÓÃ
-¿ÎºóÁ·Ï°
+ç¬¬1èŠ‚ javaè¿è¡ŒçŽ¯å¢ƒ
+day01_01_Javaè¯­è¨€å‘å±•å²
+day01_02_è®¡ç®—æœºè¿›åˆ¶è½¬æ¢
+day01_03_è®¡ç®—æœºå­˜å‚¨å•å…ƒ
+day01_04_å‘½ä»¤æç¤ºç¬¦_åŸºæœ¬ä»‹ç»
+day01_05_å‘½ä»¤æç¤ºç¬¦_å¸¸ç”¨å‘½ä»¤
+day01_06_Javaè¯­è¨€çš„è·¨å¹³å°æ€§
+day01_07_JDKã€JREä¸ŽJVM
+day01_08_JDKçš„ä¸‹è½½ä¸Žå®‰è£…
+day01_09_çŽ¯å¢ƒå˜é‡çš„é…ç½®
+å°èŠ‚æµ‹è¯•
 
-µÚ8½Ú JDK9ÐÂÌØÐÔ-Jshell
-day02_15_JDK9µÄJShell¼òµ¥Ê¹ÓÃ
-day02_16_±àÒëÆ÷µÄÁ½µãÓÅ»¯
-µÚ9½Ú Ñ¡Ôñ½á¹¹-ifÓï¾ä-switchÓï¾ä
-day03_01_Á÷³Ì¸ÅÊöÓëË³Ðò½á¹¹
-day03_02_Ñ¡Ôñ½á¹¹_µ¥ifÓï¾ä
-day03_03_Ñ¡Ôñ½á¹¹_±ê×¼if-elseÓï¾ä
-day03_04_Ñ¡Ôñ½á¹¹_À©Õ¹if-elseÓï¾ä
-day03_05_Á·Ï°_ÓÃifÓï¾äÊµÏÖ¿¼ÊÔ³É¼¨»®·Ö
-day03_06_Á·Ï°_ÓÃifÓï¾äÌæ»»ÈýÔªÔËËã·û
-day03_07_Ñ¡Ôñ½á¹¹_±ê×¼µÄswitchÓï¾ä
-day03_08_Ñ¡Ôñ½á¹¹_´©Í¸µÄswitchÓï
+ç¬¬2èŠ‚ HelloWorldæ¡ˆä¾‹
+day01_10_HelloWorldç¨‹åºçš„ä»£ç ç¼–å†™
+day01_11_HelloWorldç¨‹åºçš„ç¼–è¯‘è¿è¡Œ
+day01_12_HelloWorldçš„å¸¸è§é—®é¢˜ä¸ŽNotepad++ä½¿ç”¨
+day01_13_ç¨‹åºæ³¨é‡Šä¸ŽHelloWorldè¯´æ˜Ž
+å°èŠ‚æµ‹è¯•
 
-µÚ10½Ú Ñ­»·½á¹¹-for-while-do..while
-day03_09_Ñ­»·½á¹¹_Ñ­»·¸ÅÊöÓë»ù±¾×é³É²¿·Ö
-day03_10_Ñ­»·½á¹¹_forÑ­»·
-day03_11_Ñ­»·½á¹¹_whileÑ­»·
-day03_12_Ñ­»·½á¹¹_do-whileÑ­»·
-day03_13_Á·Ï°_ÓÃÑ­»·Çó³ö1-100Ö®¼äµÄÅ¼ÊýºÍ
-day03_14_ÈýÖÖÑ­»·µÄÇø±ð
-day03_15_Ñ­»·¿ØÖÆ_breakÓï¾ä
-day03_16_Ñ­»·¿ØÖÆ_continueÓï¾ä
-day03_17_ËÀÑ­»·
-day03_18_Ñ­»·Ç¶Ì×
-¿ÎºóÁ·Ï°
+ç¬¬3èŠ‚ å…³é”®å­—&æ ‡è¯†ç¬¦
+day01_14_å…³é”®å­—çš„æ¦‚å¿µä¸Žç‰¹å¾
+day01_15_æ ‡è¯†ç¬¦çš„æ¦‚å¿µä¸Žè§„åˆ™
+å°èŠ‚æµ‹è¯•
 
-µÚ11½Ú ¿ª·¢¹¤¾ß-IDEA
-day04_01_¼¯³É¿ª·¢»·¾³IDEµÄ¸ÅÊö
-day04_02_IntelliJ-IDEAµÄ°²×°
-day04_03_IDEAµÄÏîÄ¿½á¹¹
-day04_04_IDEAµÄHelloWorld
-day04_05_IDEAµÄ»ù±¾ÅäÖÃ
-day04_06_IDEAµÄ³£ÓÃ¿ì½Ý¼ü
-day04_07_IDEAµÄÏîÄ¿¹Ø±Õ´ò¿ªÓëÄ£
-µÚ12½Ú ·½·¨¸´Ï°
-day04_08_¸´Ï°¼òµ¥·½·¨µÄÊ¹ÓÃ
-day04_09_·½·¨µÄ¶¨Òå¸ñÊ½
-day04_10_·½·¨µÄÈýÖÖµ÷ÓÃ¸ñÊ½
-day04_11_·½·¨µÄµ÷ÓÃÁ÷³ÌÍ¼½â
-day04_12_¶Ô±ÈÓÐ²ÎÊýºÍÎÞ²ÎÊý
-day04_13_¶Ô±ÈÓÐ·µ»ØÖµºÍÎÞ·µ»ØÖµ
-day04_14_·½·¨Á·Ï°1_±È½ÏÁ½¸öÊý×ÖÊÇ·ñÏàÍ¬
-day04_15_·½·¨Á·Ï°2_Çó³ö1µ½100µÄÀÛ¼ÓºÍ
-day04_16_·½·¨Á·Ï°3_´òÓ¡Ö¸¶¨´ÎÊýµÄHelloWorld
-day04_17_·½·¨µÄ×¢ÒâÊÂÏî
-µÚ13½Ú ·½·¨ÖØÔØ
-		day04_18_·½·¨ÖØÔØµÄ»ù±¾Ê¹ÓÃ
-day04_19_·½·¨ÖØÔØµÄ×¢ÒâÊÂÏî
-day04_20_ÖØÔØÁ·Ï°1_ËÄÖÖ²»Í¬²ÎÊýÀàÐÍµÄ·½·¨
-day04_21_ÖØÔØÁ·Ï°2_ÅÐ¶Ï·½·¨µÄÕýÈ·ÖØÔØ
-day04_22_ÖØÔØÁ·Ï°3_ÊµÏÖÖØÔØµÄprintln·½·¨
-Ð¡½Ú²âÊÔ
-¿ÎºóÁ·Ï°
-µÚ14½Ú Êý×é
-		day05_01_Êý×éµÄ¸ÅÄî
-day05_02_Êý×éµÄ¶¨Òå¸ñÊ½Ò»_¶¯Ì¬³õÊ¼»¯
-day05_03_Êý×éµÄ¶¨Òå¸ñÊ½¶þ_¾²Ì¬³õÊ¼»¯
-day05_04_Êý×éµÄ¶¨Òå¸ñÊ½Èý_Ê¡ÂÔµÄ¾²Ì¬³õÊ¼»¯
-day05_05_·ÃÎÊÊý×éÔªËØ½øÐÐ»ñÈ¡
-day05_06_·ÃÎÊÊý×éÔªËØ½øÐÐ¸³Öµ
-day05_07_JavaÖÐµÄÄÚ´æ»®·Ö
-day05_08_Ò»¸öÊý×éµÄÄÚ´æÍ¼
-day05_09_Á½¸öÊý×éµÄÄÚ´æÍ¼
-day05_10_Á½¸öÒýÓÃÖ¸ÏòÍ¬Ò»¸öÊý×éµÄÄÚ´æÍ¼
-day05_11_³£¼ûÎÊÌâ_Êý×éË÷ÒýÔ½½çÒì³£
-day05_12_³£¼ûÎÊÌâ_¿ÕÖ¸ÕëÒì³£
-day05_13_»ñÈ¡Êý×éµÄ³¤¶È
+ç¬¬4èŠ‚ å¸¸é‡&å˜é‡
+day01_16_å¸¸é‡çš„æ¦‚å¿µä¸Žåˆ†ç±»
+day01_17_å¸¸é‡çš„æ‰“å°è¾“å‡º
+day01_18_åŸºæœ¬æ•°æ®ç±»åž‹
+day01_19_å˜é‡çš„æ¦‚å¿µä¸Žå®šä¹‰æ ¼å¼
+day01_20_å˜é‡çš„åŸºæœ¬ä½¿ç”¨
+day01_21_å˜é‡çš„æ³¨æ„äº‹é¡¹
+å°èŠ‚æµ‹è¯•
+è¯¾åŽç»ƒä¹ 
 
+ç¬¬5èŠ‚ æ•°æ®ç±»åž‹è½¬æ¢
+day02_01_æ•°æ®ç±»åž‹è½¬æ¢_è‡ªåŠ¨è½¬æ¢
+day02_02_æ•°æ®ç±»åž‹è½¬æ¢_å¼ºåˆ¶è½¬æ¢
+day02_03_æ•°æ®ç±»åž‹è½¬æ¢_æ³¨æ„äº‹é¡¹
+day02_04_ASCIIç¼–ç è¡¨
+å°èŠ‚æµ‹è¯•
+è¯¾åŽç»ƒä¹ 
 
-day05_14_Êý×éµÄ±éÀúÊä³ö
-day05_15_Çó³öÊý×éÖÐµÄ×îÖµ
-day05_16_Êý×éÔªËØ·´×ª
-day05_17_Êý×é×÷Îª·½·¨²ÎÊý_´«µÝµØÖ·
-day05_18_Êý×é×÷Îª·½·¨·µ»ØÖµ_·µ»ØµØÖ·
-Ð¡½Ú²âÊÔ
-¿ÎºóÁ·Ï°
-1-2 ¾ÍÒµ¿Î(2.0)-ÃæÏò¶ÔÏóºÍ·â×°
-µÚ1½Ú ÃèÊöÀà½éÉÜÓëÊ¹ÓÃ
-day06_01_ÃæÏò¶ÔÏóË¼ÏëµÄ¸ÅÊö
-day06_02_ÃæÏò¶ÔÏóË¼ÏëµÄ¾ÙÀý
-day06_03_ÀàºÍ¶ÔÏóµÄ¹ØÏµ
-day06_04_ÀàµÄ¶¨Òå
-day06_05_¶ÔÏóµÄ´´½¨¼°ÆäÊ¹ÓÃ
-day06_06_ÊÖ»úÀàÁ·Ï°
-day06_07_Ò»¸ö¶ÔÏóµÄÄÚ´æÍ¼
-day06_08_Á½¸ö¶ÔÏóÊ¹ÓÃÍ¬Ò»¸ö·½·¨µÄÄÚ´æÍ¼
-day06_09_Á½¸öÒýÓÃÖ¸ÏòÍ¬Ò»¸ö¶ÔÏóµÄÄÚ´æÍ¼
-day06_10_Ê¹ÓÃ¶ÔÏóÀàÐÍ×÷Îª·½·¨µÄ²ÎÊý
-day06_11_Ê¹ÓÃ¶ÔÏóÀàÐÍ×÷Îª·½·¨µÄ·µ»ØÖµ
-day06_12_³ÉÔ±±äÁ¿ºÍ¾Ö²¿±äÁ¿µÄÇø±ð
-day06_13_ÃæÏò¶ÔÏóÈý´óÌØÕ÷Ö®·â×°ÐÔ
-day06_14_private¹Ø¼ü×ÖµÄ×÷ÓÃ¼°Ê¹ÓÃ
-day06_15_Á·Ï°Ê¹ÓÃprivate¹Ø¼ü×Ö¶¨ÒåÑ§ÉúÀà
-day06_16_this¹Ø¼ü×ÖµÄ×÷ÓÃ
-day06_17_¹¹Ôì·½·¨
-day06_18_¶¨ÒåÒ»¸ö±ê×¼µÄÀà
-Ð¡½Ú²âÊÔ
-¿ÎºóÁ·Ï°
-1-3 ¾ÍÒµ¿Î(2.0)-³£ÓÃAPIµÚÒ»²¿·Ö
-µÚ1½Ú ScannerÀà
-		day07_01_API¸ÅÊöºÍÊ¹ÓÃ²½Öè
-day07_02_Scanner¸ÅÊö¼°ÆäAPIÎÄµµµÄÊ¹ÓÃ
-day07_03_ScannerµÄÊ¹ÓÃ²½Öè
-day07_04_ScannerÁ·Ï°Ò»_¼üÅÌÊäÈëÁ½¸öÊý×ÖÇóºÍ
-	day07_05_ScannerÁ·Ï°¶þ_¼üÅÌÊäÈëÈý¸öÊý×ÖÇó×î´óÖµ
-µÚ2½Ú ÄäÃû¶ÔÏó
-		day07_06_ÄäÃû¶ÔÏóµÄËµÃ÷
-day07_07_ÄäÃû¶ÔÏó×÷Îª·½·¨µÄ²ÎÊýºÍ
-µÚ3½Ú RandomÀà
-		day07_08_Random¸ÅÊöºÍ»ù±¾Ê¹ÓÃ
+ç¬¬6èŠ‚ è¿ç®—ç¬¦
+day02_05_ç®—æœ¯è¿ç®—ç¬¦_å››åˆ™ä¸Žå–æ¨¡è¿ç®—
+day02_06_ç®—æœ¯è¿ç®—ç¬¦_åŠ å·çš„å¤šç§ç”¨æ³•
+day02_07_ç®—æœ¯è¿ç®—ç¬¦_è‡ªå¢žè‡ªå‡è¿ç®—ç¬¦
+day02_08_èµ‹å€¼è¿ç®—ç¬¦
+day02_09_æ¯”è¾ƒè¿ç®—ç¬¦
+day02_10_é€»è¾‘è¿ç®—ç¬¦
+day02_11_ä¸‰å…ƒè¿ç®—ç¬¦
+å°èŠ‚æµ‹è¯•
+è¯¾åŽç»ƒä¹ 
 
+ç¬¬7èŠ‚ æ–¹æ³•å…¥é—¨
+day02_12_æ–¹æ³•å…¥é—¨_æ¦‚å¿µå¼•å…¥
+day02_13_æ–¹æ³•å…¥é—¨_æ–¹æ³•çš„å®šä¹‰
+day02_14_æ–¹æ³•å…¥é—¨_æ–¹æ³•çš„è°ƒç”¨
+è¯¾åŽç»ƒä¹ 
 
-day07_09_RandomÉú³ÉÖ¸¶¨·¶Î§µÄËæ»úÊý
-day07_10_RandomÁ·Ï°Ò»_Éú³É1-nÖ®¼äµÄËæ»úÊý
-day07_11_RandomÁ·Ï°¶þ_²ÂÊý×ÖÐ¡ÓÎÏ·
-¿ÎºóÁ·Ï°
-µÚ4½Ú ArrayList¼¯ºÏ
-		day07_12_¶ÔÏóÊý×é
-day07_13_ArrayList¼¯ºÏ¸ÅÊöºÍ»ù±¾Ê¹ÓÃ
-day07_14_ArrayList¼¯ºÏµÄ³£ÓÃ·½·¨ºÍ±éÀú
-day07_15_ArrayList¼¯ºÏ´æ´¢»ù±¾Êý¾ÝÀàÐÍ
-day07_16_ArrayListÁ·Ï°Ò»_´æ´¢Ëæ»úÊý×Ö
-day07_17_ArrayListÁ·Ï°¶þ_´æ´¢×Ô¶¨Òå¶ÔÏó
-day07_18_ArrayListÁ·Ï°Èý_°´Ö¸¶¨¸ñÊ½±éÀú¼¯ºÏ×Ö·û´®
-day07_19_ArrayListÁ·Ï°ËÄ_É¸Ñ¡¼¯ºÏÖÐµÄËæ»úÊý
-Ð¡½Ú²âÊÔ
-¿ÎºóÁ·Ï°
-µÚ5½Ú StringÀà
-day08_01_×Ö·û´®¸ÅÊöºÍÌØµã
-day08_02_×Ö·û´®µÄ¹¹Ôì·½·¨ºÍÖ±½Ó´´½¨
-day08_03_×Ö·û´®µÄ³£Á¿³Ø
-day08_04_×Ö·û´®µÄ±È½ÏÏà¹Ø·½·¨
-day08_05_×Ö·û´®µÄ»ñÈ¡Ïà¹Ø·½·¨
-day08_06_×Ö·û´®µÄ½ØÈ¡·½·¨
-day08_07_×Ö·û´®µÄ×ª»»Ïà¹Ø·½·¨
-day08_08_×Ö·û´®µÄ·Ö¸î·½·¨
-day08_09_Á·Ï°£º°´Ö¸¶¨¸ñÊ½Æ´½Ó×Ö·û´®
-day08_10_Á·Ï°£ºÍ³¼ÆÊäÈëµÄ×Ö·û´®ÖÐ¸÷ÖÖ×Ö·ûµÄ¸öÊý
-Ð¡½Ú²âÊÔ
-µÚ6½Ú static¾²Ì¬
-		day08_11_¾²Ì¬static¹Ø¼ü×Ö¸ÅÊö
-day08_12_¾²Ì¬static¹Ø¼ü×ÖÐÞÊÎ³ÉÔ±±äÁ¿
-day08_13_¾²Ì¬static¹Ø¼ü×ÖÐÞÊÎ³ÉÔ±·½·¨
-day08_14_¾²Ì¬staticµÄÄÚ´æÍ¼
-day08_15_¾²Ì¬´úÂë¿é
-Ð¡½Ú²âÊÔ
-µÚ7½Ú Arrays¹¤¾ßÀà
-		day08_16_Êý×é¹¤¾ßÀàArrays
-day08_17_ArraysÁ·Ï°£º×Ö·û´®µ¹Ðò
-µÚ8½Ú MathÀà
-		day08_18_ÊýÑ§¹¤¾ßÀàMath
-day08_19_MathÁ·Ï°£ºÐ¡Ñ§ÊýÑ§ÕæÌâ
-¿ÎºóÁ·Ï°
+ç¬¬8èŠ‚ JDK9æ–°ç‰¹æ€§-Jshell
+day02_15_JDK9çš„JShellç®€å•ä½¿ç”¨
+day02_16_ç¼–è¯‘å™¨çš„ä¸¤ç‚¹ä¼˜åŒ–
 
+ç¬¬9èŠ‚ é€‰æ‹©ç»“æž„-ifè¯­å¥-switchè¯­å¥
+day03_01_æµç¨‹æ¦‚è¿°ä¸Žé¡ºåºç»“æž„
+day03_02_é€‰æ‹©ç»“æž„_å•ifè¯­å¥
+day03_03_é€‰æ‹©ç»“æž„_æ ‡å‡†if-elseè¯­å¥
+day03_04_é€‰æ‹©ç»“æž„_æ‰©å±•if-elseè¯­å¥
+day03_05_ç»ƒä¹ _ç”¨ifè¯­å¥å®žçŽ°è€ƒè¯•æˆç»©åˆ’åˆ†
+day03_06_ç»ƒä¹ _ç”¨ifè¯­å¥æ›¿æ¢ä¸‰å…ƒè¿ç®—ç¬¦
+day03_07_é€‰æ‹©ç»“æž„_æ ‡å‡†çš„switchè¯­å¥
+day03_08_é€‰æ‹©ç»“æž„_ç©¿é€çš„switchè¯­
 
-1-4 ¾ÍÒµ¿Î(2.0)-¼Ì³ÐÓë¶àÌ¬
-µÚ1½Ú ¼Ì³Ð
-day09_01_¼Ì³ÐµÄ¸ÅÊö
-day09_02_¼Ì³ÐµÄ¸ñÊ½
-day09_03_¼Ì³ÐÖÐ³ÉÔ±±äÁ¿µÄ·ÃÎÊÌØµã
-day09_04_Çø·Ö×ÓÀà·½·¨ÖÐÖØÃûµÄÈýÖÖ±äÁ¿
-day09_05_¼Ì³ÐÖÐ³ÉÔ±·½·¨µÄ·ÃÎÊÌØµã
-day09_06_¼Ì³ÐÖÐ·½·¨µÄ¸²¸ÇÖØÐ´_¸ÅÄîÓëÌØµã
-day09_07_¼Ì³ÐÖÐ·½·¨µÄ¸²¸ÇÖØÐ´_×¢ÒâÊÂÏî
-day09_08_¼Ì³ÐÖÐ·½·¨µÄ¸²¸ÇÖØÐ´_Ó¦ÓÃ³¡¾°
-day09_09_¼Ì³ÐÖÐ¹¹Ôì·½·¨µÄ·ÃÎÊÌØµã
-day09_10_super¹Ø¼ü×ÖµÄÈýÖÖÓÃ·¨
-day09_11_this¹Ø¼ü×ÖµÄÈýÖÖÓÃ·¨
-day09_12_superÓëthis¹Ø¼ü×ÖÍ¼½â
-day09_13_Java¼Ì³ÐµÄÈý¸öÌØµã
-¿ÎºóÁ·Ï°
-µÚ2½Ú ³éÏóÀà
-day09_14_³éÏóµÄ¸ÅÄî
-day09_15_³éÏó·½·¨ºÍ³éÏóÀàµÄ¸ñÊ½
-day09_16_³éÏó·½·¨ºÍ³éÏóÀàµÄÊ¹ÓÃ
-day09_17_³éÏó·½·¨ºÍ³éÏóÀàµÄ×¢ÒâÊÂÏî
-day09_18_·¢ºì°ü°¸Àý_·ÖÎö
-day09_19_·¢ºì°ü°¸Àý_ÊµÏÖ
-¿ÎºóÁ·Ï°
-µÚ3½Ú ½Ó¿Ú
-day10_01_½Ó¿Ú¸ÅÊöÓëÉú»î¾ÙÀý
-day10_02_½Ó¿ÚµÄ¶¨Òå»ù±¾¸ñÊ½
-day10_03_½Ó¿ÚµÄ³éÏó·½·¨¶¨Òå
-day10_04_½Ó¿ÚµÄ³éÏó·½·¨Ê¹ÓÃ
-day10_05_½Ó¿ÚµÄÄ¬ÈÏ·½·¨¶¨Òå
-day10_06_½Ó¿ÚµÄÄ¬ÈÏ·½·¨Ê¹ÓÃ
-day10_07_½Ó¿ÚµÄ¾²Ì¬·½·¨¶¨Òå
-day10_08_½Ó¿ÚµÄ¾²Ì¬·½·¨Ê¹ÓÃ
-day10_09_½Ó¿ÚµÄË½ÓÐ·½·¨¶¨Òå
-day10_10_½Ó¿ÚµÄË½ÓÐ·½·¨Ê¹ÓÃ
-day10_11_½Ó¿ÚµÄ³£Á¿¶¨ÒåºÍÊ¹ÓÃ
-day10_12_½Ó¿ÚµÄÄÚÈÝÐ¡½á
-day10_13_¼Ì³Ð¸¸Àà²¢ÊµÏÖ¶à¸ö½Ó¿Ú
-day10_14_½Ó¿ÚÖ®¼äµÄ¶à¼Ì³Ð
-¿ÎºóÁ·Ï°
-µÚ4½Ú ¶àÌ¬
+ç¬¬10èŠ‚ å¾ªçŽ¯ç»“æž„-for-while-do..while
+day03_09_å¾ªçŽ¯ç»“æž„_å¾ªçŽ¯æ¦‚è¿°ä¸ŽåŸºæœ¬ç»„æˆéƒ¨åˆ†
+day03_10_å¾ªçŽ¯ç»“æž„_forå¾ªçŽ¯
+day03_11_å¾ªçŽ¯ç»“æž„_whileå¾ªçŽ¯
+day03_12_å¾ªçŽ¯ç»“æž„_do-whileå¾ªçŽ¯
+day03_13_ç»ƒä¹ _ç”¨å¾ªçŽ¯æ±‚å‡º1-100ä¹‹é—´çš„å¶æ•°å’Œ
+day03_14_ä¸‰ç§å¾ªçŽ¯çš„åŒºåˆ«
+day03_15_å¾ªçŽ¯æŽ§åˆ¶_breakè¯­å¥
+day03_16_å¾ªçŽ¯æŽ§åˆ¶_continueè¯­å¥
+day03_17_æ­»å¾ªçŽ¯
+day03_18_å¾ªçŽ¯åµŒå¥—
+è¯¾åŽç»ƒä¹ 
 
-day10_15_¶àÌ¬µÄ¸ÅÊö
-day10_16_¶àÌ¬µÄ¸ñÊ½ÓëÊ¹ÓÃ
-day10_17_¶àÌ¬ÖÐ³ÉÔ±±äÁ¿µÄÊ¹ÓÃÌØµã
-day10_18_¶àÌ¬ÖÐ³ÉÔ±·½·¨µÄÊ¹ÓÃÌØµã
-day10_19_Ê¹ÓÃ¶àÌ¬µÄºÃ´¦
-day10_20_¶ÔÏóµÄÏòÉÏ×ªÐÍ
-day10_21_¶ÔÏóµÄÏòÏÂ×ªÐÍ
-day10_22_ÓÃinstanceof¹Ø¼ü×Ö½øÐÐÀàÐÍÅÐ¶Ï
-day10_23_±Ê¼Ç±¾USB½Ó¿Ú°¸Àý_·ÖÎö
-day10_24_±Ê¼Ç±¾USB½Ó¿Ú°¸Àý_ÊµÏÖ
-¿ÎºóÁ·Ï°
-µÚ5½Ú final¹Ø¼ü×Ö
-day11_01_final¹Ø¼ü×Ö¸ÅÄîÓëËÄÖÖÓÃ·¨
-day11_02_final¹Ø¼ü×ÖÓÃÓÚÐÞÊÎÀà
-day11_03_final¹Ø¼ü×ÖÓÃÓÚÐÞÊÎ³ÉÔ±·½·¨
-day11_04_final¹Ø¼ü×ÖÓÃÓÚÐÞÊÎ¾Ö²¿±äÁ¿
-day11_05_final¹Ø¼ü×ÖÓÃÓÚÐÞÊÎ³ÉÔ±±äÁ¿
-µÚ6½Ú È¨ÏÞÐÞÊÎ·û
-day11_06_ËÄÖÖÈ¨ÏÞÐÞÊÎ·û
-µÚ7½Ú ÄÚ²¿Àà
-day11_07_ÄÚ²¿ÀàµÄ¸ÅÄîÓë·ÖÀà
-day11_08_³ÉÔ±ÄÚ²¿ÀàµÄ¶¨Òå
-day11_09_³ÉÔ±ÄÚ²¿ÀàµÄÊ¹ÓÃ
-day11_10_ÄÚ²¿ÀàµÄÍ¬Ãû±äÁ¿·ÃÎÊ
-day11_11_¾Ö²¿ÄÚ²¿Àà¶¨Òå
-day11_12_¾Ö²¿ÄÚ²¿ÀàµÄfinalÎÊÌâ
-day11_13_ÄäÃûÄÚ²¿Àà
-day11_14_ÄäÃûÄÚ²¿ÀàµÄ×¢ÒâÊÂÏî
-day11_15_Àà×÷Îª³ÉÔ±±äÁ¿ÀàÐÍ
-day11_16_½Ó¿Ú×÷Îª³ÉÔ±±äÁ¿ÀàÐÍ
-day11_17_½Ó¿Ú×÷Îª·½·¨µÄ²ÎÊýºÍ»ò·µ»ØÖµ
-day11_18_·¢ºì°ü°¸Àý_·ÖÎö
-day11_19_·¢ºì°ü°¸Àý_ÆÕÍ¨ºì°üÆ½¾ù·Ö·¢
-day11_20_·¢ºì°ü°¸Àý_ÊÖÆøºì°üËæ»ú·Ö·¢
-¿ÎºóÁ·Ï°
-1-5 ¾ÍÒµ¿Î(2.0)-³£ÓÃAPIµÚ¶þ²¿·Ö
-µÚ1½Ú ObjectÀà
-02_ObjectÀàµÄtoString·½·¨
-03_ObjectÀàµÄequals·½·¨
-04_ÖØÐ´ObjectÀàµÄequals·½·¨
-05_ObjectsÀàµÄequals·½·¨
+ç¬¬11èŠ‚ å¼€å‘å·¥å…·-IDEA
+day04_01_é›†æˆå¼€å‘çŽ¯å¢ƒIDEçš„æ¦‚è¿°
+day04_02_IntelliJ-IDEAçš„å®‰è£…
+day04_03_IDEAçš„é¡¹ç›®ç»“æž„
+day04_04_IDEAçš„HelloWorld
+day04_05_IDEAçš„åŸºæœ¬é…ç½®
+day04_06_IDEAçš„å¸¸ç”¨å¿«æ·é”®
+day04_07_IDEAçš„é¡¹ç›®å…³é—­æ‰“å¼€ä¸Žæ¨¡
 
-¿ÎºóÁ·Ï°
-µÚ2½Ú DateÀà
-06_ºÁÃëÖµµÄ¸ÅÄîºÍ×÷ÓÃ
-07_DateÀàµÄ¹¹Ôì·½·¨ºÍ³ÉÔ±·½·¨
-08_DateFormatÀà&SimpleDateFormatÀà½éÉÜ
-09_DateFormatÀàµÄformat·½·¨ºÍparse·½·¨
-10_Á·Ï°_¼ÆËã³öÒ»¸öÈËÒÑ¾­³öÉúÁË¶àÉÙÌì
-¿ÎºóÁ·Ï°
-µÚ3½Ú CalendarÀà
-11_CalendarÀà½éÉÜ_»ñÈ¡¶ÔÏóµÄ·½Ê½
-12_CalendarÀàµÄ³£ÓÃ³ÉÔ±·½·¨
-¿ÎºóÁ·Ï°
-µÚ4½Ú SystemÀà
-13_SystemÀàµÄ³£ÓÃ·½·¨
-µÚ5½Ú StringBuilderÀà
-14_StringBuilderµÄÔ­Àí
-15_StringBuilderµÄ¹¹Ôì·½·¨ºÍappend·½·¨
-16_StringBuilderµÄtoString·½·¨
-¿ÎºóÁ·Ï°
-µÚ6½Ú »ù±¾ÀàÐÍ°ü×°Àà
-17_°ü×°ÀàµÄ¸ÅÄî
-18_°ü×°Àà_×°ÏäÓë²ðÏä
-19_°ü×°Àà_×Ô¶¯×°ÏäÓë×Ô¶¯²ðÏä
-20_°ü×°Àà_»ù±¾ÀàÐÍÓë×Ö·û´®ÀàÐÍÖ®
-1-6 ¾ÍÒµ¿Î(2.0)-¼¯ºÏ
-µÚ1½Ú Collection¼¯ºÏ
-02_Collection¼¯ºÏ¸ÅÊö
-03_¼¯ºÏ¿ò¼Ü½éÉÜavi
-04_Collection¼¯ºÏ³£ÓÃ¹¦ÄÜ
-05_Iterator½Ó¿Ú½éÉÜ
-06_µü´úÆ÷µÄ´úÂëÊµÏÖ
-07_µü´úÆ÷µÄÊµÏÖÔ­Àí
-08_ÔöÇ¿forÑ­»·
-¿ÎºóÁ·Ï°
-µÚ2½Ú ·ºÐÍ
-09_·ºÐÍµÄ¸ÅÄî
-10_Ê¹ÓÃ·ºÐÍµÄºÃ´¦
-11_¶¨ÒåºÍÊ¹ÓÃº¬ÓÐ·ºÐÍµÄÀà
-12_¶¨ÒåºÍÊ¹ÓÃº¬ÓÐ·ºÐÍµÄ·½·¨(1)
-13_¶¨ÒåºÍÊ¹ÓÃº¬ÓÐ·ºÐÍµÄ½Ó¿Ú
-14_·ºÐÍÍ¨Åä·û
+ç¬¬12èŠ‚ æ–¹æ³•å¤ä¹ 
+day04_08_å¤ä¹ ç®€å•æ–¹æ³•çš„ä½¿ç”¨
+day04_09_æ–¹æ³•çš„å®šä¹‰æ ¼å¼
+day04_10_æ–¹æ³•çš„ä¸‰ç§è°ƒç”¨æ ¼å¼
+day04_11_æ–¹æ³•çš„è°ƒç”¨æµç¨‹å›¾è§£
+day04_12_å¯¹æ¯”æœ‰å‚æ•°å’Œæ— å‚æ•°
+day04_13_å¯¹æ¯”æœ‰è¿”å›žå€¼å’Œæ— è¿”å›žå€¼
+day04_14_æ–¹æ³•ç»ƒä¹ 1_æ¯”è¾ƒä¸¤ä¸ªæ•°å­—æ˜¯å¦ç›¸åŒ
+day04_15_æ–¹æ³•ç»ƒä¹ 2_æ±‚å‡º1åˆ°100çš„ç´¯åŠ å’Œ
+day04_16_æ–¹æ³•ç»ƒä¹ 3_æ‰“å°æŒ‡å®šæ¬¡æ•°çš„HelloWorld
+day04_17_æ–¹æ³•çš„æ³¨æ„äº‹é¡¹
 
-µÚ3½Ú ¶·µØÖ÷°¸Àý(µ¥ÁÐ)
-15_¶·µØÖ÷°¸ÀýµÄÐèÇó·ÖÎö
-16_¶·µØÖ÷°¸ÀýµÄ´úÂëÊµÏÖ
-µÚ4½Ú Êý¾Ý½á¹¹
-02_Êý¾Ý½á¹¹_Õ»
-03_Êý¾Ý½á¹¹_¶ÓÁÐ
-04_Êý¾Ý½á¹¹_Êý×é
-05_Êý¾Ý½á¹¹_Á´±í
-06_Êý¾Ý½á¹¹_ºìºÚÊ÷
-µÚ5½Ú List¼¯ºÏ
-07_List¼¯ºÏ_½éÉÜ&³£ÓÃ·½·¨
-08_Arraylist¼¯ºÏ
-09_LinkedList¼¯ºÏ
-10_Vector¼¯ºÏ
-¿ÎºóÁ·Ï°
-µÚ6½Ú Set¼¯ºÏ
-11_HashSet¼¯ºÏ½éÉÜ
-12_¹þÏ£Öµ
-13_HashSet¼¯ºÏ´æ´¢Êý¾ÝµÄ½á¹¹£¨¹þÏ£±í£©
-14_Set¼¯ºÏ´æ´¢ÔªËØ²»ÖØ¸´µÄÔ­Àí
-15_HashSet´æ´¢×Ô¶¨ÒåÀàÐÍÔªËØ
-16_LinkedHashSet¼¯ºÏ
-17_¿É±ä²ÎÊý
-¿ÎºóÁ·Ï°
-µÚ7½Ú Collections¹¤¾ßÀà
-18_Collections¼¯ºÏ¹¤¾ßÀàµÄ·½·¨_addAll&shuffle
-19_Collections¼¯ºÏ¹¤¾ßÀàµÄ·½·¨_sort(List)
-20_Collections¼¯ºÏ¹¤¾ßÀàµÄ·½·¨_sort(List,Comparator)
-¿ÎºóÁ·Ï°
-µÚ8½Ú Map¼¯ºÏ
-01_Map¼¯ºÏ¸ÅÊö
-02_Map³£ÓÃ×ÓÀà
-03_Map½Ó¿ÚÖÐµÄ³£ÓÃ·½·¨
-04_Map¼¯ºÏ±éÀú¼üÕÒÖµ·½Ê½
-05_Entry¼üÖµ¶Ô¶ÔÏó
-06_Map¼¯ºÏ±éÀú¼üÖµ¶Ô·½Ê½
-07_HashMap´æ´¢×Ô¶¨ÒåÀàÐÍ¼üÖµ
-08_LinkedHashMap¼¯ºÏ
-09_Hashtable¼¯ºÏ
-10_Á·Ï°_¼ÆËãÒ»¸ö×Ö·û´®ÖÐÃ¿¸ö×Ö·û³öÏÖ´ÎÊý
-11_JDK9¶Ô¼¯ºÏÌí¼ÓµÄÓÅ»¯_of·½·¨
+ç¬¬13èŠ‚ æ–¹æ³•é‡è½½
+day04_18_æ–¹æ³•é‡è½½çš„åŸºæœ¬ä½¿ç”¨
+day04_19_æ–¹æ³•é‡è½½çš„æ³¨æ„äº‹é¡¹
+day04_20_é‡è½½ç»ƒä¹ 1_å››ç§ä¸åŒå‚æ•°ç±»åž‹çš„æ–¹æ³•
+day04_21_é‡è½½ç»ƒä¹ 2_åˆ¤æ–­æ–¹æ³•çš„æ­£ç¡®é‡è½½
+day04_22_é‡è½½ç»ƒä¹ 3_å®žçŽ°é‡è½½çš„printlnæ–¹æ³•
+å°èŠ‚æµ‹è¯•
+è¯¾åŽç»ƒä¹ 
 
-¿ÎºóÁ·Ï°
-µÚ9½Ú Debugµ÷ÊÔ
-12_Debug×·×Ù
-µÚ10½Ú ¶·µØÖ÷°¸Àý(Ë«ÁÐ)
-13_¶·µØÖ÷°¸ÀýµÄÐèÇó·ÖÎö
-14_¶·µØÖ÷°¸ÀýµÄ´úÂëÊµÏÖ
-1-7 ¾ÍÒµ¿Î(2.0)-Òì³£Óë¶àÏß³Ì
-µÚ1½Ú Òì³£
-02_Òì³£¸ÅÄî&Òì³£ÌåÏµ
-03_Òì³£·ÖÀà
-04_Òì³£µÄ²úÉú¹ý³Ì½âÎö
-05_throw¹Ø¼ü×Ö
-06_Objects·Ç¿ÕÅÐ¶Ï_requireNonNull·½·¨
-07_throws¹Ø¼ü×Ö_Òì³£´¦ÀíµÄµÚÒ»ÖÖ·½Ê½,½»¸ø±ðÈË´¦Àí
-08_try_catch_Òì³£´¦ÀíµÄµÚ¶þÖÖ·½Ê½,×Ô¼º´¦ÀíÒì³£
-09_ThrowableÀàÖÐ3¸öÒì³£´¦ÀíµÄ·½·¨
-10_finally´úÂë¿é
-11_Òì³£×¢ÒâÊÂÏî_¶àÒì³£µÄ²¶»ñ´¦Àí
-12_Òì³£×¢ÒâÊÂÏî_finallyÓÐreturnÓï¾ä
-13_Òì³£×¢ÒâÊÂÏî_×Ó¸¸ÀàÒì³£
-14_×Ô¶¨ÒåÒì³£Àà
-15_×Ô¶¨ÒåÒì³£ÀàµÄÁ·Ï°
-¿ÎºóÁ·Ï°
-µÚ2½Ú Ïß³ÌÊµÏÖ·½Ê½
-16_²¢·¢Óë²¢ÐÐ
-17_½ø³Ì¸ÅÄî
-18_Ïß³Ì¸ÅÄî
-19_Ïß³Ìµ÷¶È
-20_Ö÷Ïß³Ì
-21_´´½¨¶àÏß³Ì³ÌÐòµÄµÚÒ»ÖÖ·½Ê½_´´½¨ThreadÀàµÄ×ÓÀà
-02_¶àÏß³ÌÔ­Àí_Ëæ»úÐÔ´òÓ¡½á¹û
-03_¶àÏß³ÌÔ­Àí_¶àÏß³ÌÄÚ´æÍ¼½â
-04_ThreadÀàµÄ³£ÓÃ·½·¨_»ñÈ¡Ïß³ÌÃû³ÆµÄ·½·¨
-05_ThreadÀàµÄ³£ÓÃ·½·¨_ÉèÖÃÏß³ÌÃû³ÆµÄ·½·¨
-06_ThreadÀàµÄ³£ÓÃ·½·¨_sleep
-07_´´½¨¶àÏß³Ì³ÌÐòµÄµÚ¶þÖÖ·½Ê½_ÊµÏÖRunnable½Ó¿Ú
-08_ThreadºÍRunnableµÄÇø±ð
-09_ÄäÃûÄÚ²¿Àà·½Ê½ÊµÏÖÏß³ÌµÄ´´½¨
-µÚ3½Ú Ïß³ÌÍ¬²½»úÖÆ
-10_Ïß³Ì°²È«ÎÊÌâµÄ¸ÅÊö
-11_Ïß³Ì°²È«ÎÊÌâµÄ´úÂëÊµÏÖ
+ç¬¬14èŠ‚ æ•°ç»„
+day05_01_æ•°ç»„çš„æ¦‚å¿µ
+day05_02_æ•°ç»„çš„å®šä¹‰æ ¼å¼ä¸€_åŠ¨æ€åˆå§‹åŒ–
+day05_03_æ•°ç»„çš„å®šä¹‰æ ¼å¼äºŒ_é™æ€åˆå§‹åŒ–
+day05_04_æ•°ç»„çš„å®šä¹‰æ ¼å¼ä¸‰_çœç•¥çš„é™æ€åˆå§‹åŒ–
+day05_05_è®¿é—®æ•°ç»„å…ƒç´ è¿›è¡ŒèŽ·å–
+day05_06_è®¿é—®æ•°ç»„å…ƒç´ è¿›è¡Œèµ‹å€¼
+day05_07_Javaä¸­çš„å†…å­˜åˆ’åˆ†
+day05_08_ä¸€ä¸ªæ•°ç»„çš„å†…å­˜å›¾
+day05_09_ä¸¤ä¸ªæ•°ç»„çš„å†…å­˜å›¾
+day05_10_ä¸¤ä¸ªå¼•ç”¨æŒ‡å‘åŒä¸€ä¸ªæ•°ç»„çš„å†…å­˜å›¾
+day05_11_å¸¸è§é—®é¢˜_æ•°ç»„ç´¢å¼•è¶Šç•Œå¼‚å¸¸
+day05_12_å¸¸è§é—®é¢˜_ç©ºæŒ‡é’ˆå¼‚å¸¸
+day05_13_èŽ·å–æ•°ç»„çš„é•¿åº¦
+day05_14_æ•°ç»„çš„éåŽ†è¾“å‡º
+day05_15_æ±‚å‡ºæ•°ç»„ä¸­çš„æœ€å€¼
+day05_16_æ•°ç»„å…ƒç´ åè½¬
+day05_17_æ•°ç»„ä½œä¸ºæ–¹æ³•å‚æ•°_ä¼ é€’åœ°å€
+day05_18_æ•°ç»„ä½œä¸ºæ–¹æ³•è¿”å›žå€¼_è¿”å›žåœ°å€
+å°èŠ‚æµ‹è¯•
+è¯¾åŽç»ƒä¹ 
+-----------------------------------------------
+1-2 å°±ä¸šè¯¾(2.0)-é¢å‘å¯¹è±¡å’Œå°è£…
+ç¬¬1èŠ‚ æè¿°ç±»ä»‹ç»ä¸Žä½¿ç”¨
+day06_01_é¢å‘å¯¹è±¡æ€æƒ³çš„æ¦‚è¿°
+day06_02_é¢å‘å¯¹è±¡æ€æƒ³çš„ä¸¾ä¾‹
+day06_03_ç±»å’Œå¯¹è±¡çš„å…³ç³»
+day06_04_ç±»çš„å®šä¹‰
+day06_05_å¯¹è±¡çš„åˆ›å»ºåŠå…¶ä½¿ç”¨
+day06_06_æ‰‹æœºç±»ç»ƒä¹ 
+day06_07_ä¸€ä¸ªå¯¹è±¡çš„å†…å­˜å›¾
+day06_08_ä¸¤ä¸ªå¯¹è±¡ä½¿ç”¨åŒä¸€ä¸ªæ–¹æ³•çš„å†…å­˜å›¾
+day06_09_ä¸¤ä¸ªå¼•ç”¨æŒ‡å‘åŒä¸€ä¸ªå¯¹è±¡çš„å†…å­˜å›¾
+day06_10_ä½¿ç”¨å¯¹è±¡ç±»åž‹ä½œä¸ºæ–¹æ³•çš„å‚æ•°
+day06_11_ä½¿ç”¨å¯¹è±¡ç±»åž‹ä½œä¸ºæ–¹æ³•çš„è¿”å›žå€¼
+day06_12_æˆå‘˜å˜é‡å’Œå±€éƒ¨å˜é‡çš„åŒºåˆ«
+day06_13_é¢å‘å¯¹è±¡ä¸‰å¤§ç‰¹å¾ä¹‹å°è£…æ€§
+day06_14_privateå…³é”®å­—çš„ä½œç”¨åŠä½¿ç”¨
+day06_15_ç»ƒä¹ ä½¿ç”¨privateå…³é”®å­—å®šä¹‰å­¦ç”Ÿç±»
+day06_16_thiså…³é”®å­—çš„ä½œç”¨
+day06_17_æž„é€ æ–¹æ³•
+day06_18_å®šä¹‰ä¸€ä¸ªæ ‡å‡†çš„ç±»
+å°èŠ‚æµ‹è¯•
+è¯¾åŽç»ƒä¹ 
 
-12_Ïß³Ì°²È«ÎÊÌâ²úÉúµÄÔ­Àí
-13_½â¾öÏß³Ì°²È«ÎÊÌâ_Í¬²½´úÂë¿é
-14_Í¬²½¼¼ÊõµÄÔ­Àí
-15_½â¾öÏß³Ì°²È«ÎÊÌâ_Í¬²½·½·¨
-16_¾²Ì¬Í¬²½·½·¨
-17_½â¾öÏß³Ì°²È«ÎÊÌâ_LockËø
-µÚ4½Ú µÈ´ý»½ÐÑ»úÖÆ
-18_Ïß³Ì×´Ì¬¸ÅÊö
-19_µÈ´ý»½ÐÑ°¸Àý·ÖÎö
-20_µÈ´ý»½ÐÑ°¸Àý´úÂëÊµÏÖ
-21_ObjectÀàÖÐwait´ø²Î·½·¨ºÍnotifyAll·½·¨
-02_Ïß³Ì¼äÍ¨ÐÅ
-03_µÈ´ý»½ÐÑ»úÖÆ¸ÅÊö
-04_µÈ´ý»½ÐÑ»úÖÆÐèÇó·ÖÎö
-05_µÈ´ý»½ÐÑ»úÖÆ´úÂëÊµÏÖ_°ü×ÓÀà&°ü×ÓÆÌÀà
-06_µÈ´ý»½ÐÑ»úÖÆ´úÂëÊµÏÖ_³Ô»õÀà&²âÊÔÀà
-¿ÎºóÁ·Ï°
-µÚ5½Ú Ïß³Ì³Ø
-07_Ïß³Ì³ØµÄ¸ÅÄîºÍÔ­Àí
-08_Ïß³Ì³ØµÄ´úÂëÊµÏÖ
-¿ÎºóÁ·Ï°
-µÚ6½Ú Lambda±í´ïÊ½
-09_º¯ÊýÊ½±à³ÌË¼Ïë¸ÅÊö
-10_ÈßÓàµÄRunnable´úÂë
-11_±à³ÌË¼Ïë×ª»»&ÌåÑéLambdaµÄ¸üÓÅÐ´·¨
-12_Lambda±ê×¼¸ñÊ½
-13_Lambda±í´ïÊ½µÄÎÞ²ÎÊýÎÞ·µ»ØÖµµÄÁ·Ï°
-14_Lambda±í´ïÊ½ÓÐ²ÎÊýÓÐ·µ»ØÖµµÄÁ·Ï°
-15_Lambda±í´ïÊ½ÓÐ²ÎÊýÓÐ·µ»ØÖµµÄÁ·Ï°(×Ô¶¨Òå½Ó¿Ú)
-16_LambdaÊ¡ÂÔ¸ñÊ½&LambdaÊ¹ÓÃÇ°Ìá
-¿ÎºóÁ·Ï°
-1-8 ¾ÍÒµ¿Î(2.0)-FileÀàÓëIOÁ÷
-µÚ1½Ú FileÀà
-02_FileÀàµÄ¸ÅÊö
-03_FileÀàµÄ¾²Ì¬³ÉÔ±±äÁ¿
-04_¾ø¶ÔÂ·¾¶ºÍÏà¶ÔÂ·¾¶
-05_FileÀàµÄ¹¹Ôì·½·¨
-06_FileÀà»ñÈ¡¹¦ÄÜµÄ·½·¨
-07_FileÀàÅÐ¶Ï¹¦ÄÜµÄ·½·¨
-08_FileÀà´´½¨É¾³ý¹¦ÄÜµÄ·½·¨
-09_FileÀà±éÀú(ÎÄ¼þ¼Ð)Ä¿Â¼¹¦ÄÜ
+1-3 å°±ä¸šè¯¾(2.0)-å¸¸ç”¨APIç¬¬ä¸€éƒ¨åˆ†
+ç¬¬1èŠ‚ Scannerç±»
+day07_01_APIæ¦‚è¿°å’Œä½¿ç”¨æ­¥éª¤
+day07_02_Scanneræ¦‚è¿°åŠå…¶APIæ–‡æ¡£çš„ä½¿ç”¨
+day07_03_Scannerçš„ä½¿ç”¨æ­¥éª¤
+day07_04_Scannerç»ƒä¹ ä¸€_é”®ç›˜è¾“å…¥ä¸¤ä¸ªæ•°å­—æ±‚å’Œ
+day07_05_Scannerç»ƒä¹ äºŒ_é”®ç›˜è¾“å…¥ä¸‰ä¸ªæ•°å­—æ±‚æœ€å¤§å€¼
 
-¿ÎºóÁ·Ï°
-µÚ2½Ú µÝ¹é
-10_µÝ¹é¸ÅÄî&·ÖÀà&×¢ÒâÊÂÏî
-11_Á·Ï°_Ê¹ÓÃµÝ¹é¼ÆËã1-nÖ®¼äµÄºÍ
-12_Á·Ï°_Ê¹ÓÃµÝ¹é¼ÆËã½×³Ë
-13_Á·Ï°_µÝ¹é´òÓ¡¶à¼¶Ä¿Â¼
-14_×ÛºÏ°¸Àý_ÎÄ¼þËÑË÷
-µÚ3½Ú ¹ýÂËÆ÷
-15_FileFilter¹ýÂËÆ÷µÄÔ­ÀíºÍÊ¹ÓÃ
-16_FileNameFilter¹ýÂËÆ÷µÄÊ¹ÓÃºÍLambdaÓÅ»¯³ÌÐò
-µÚ4½Ú IO×Ö½ÚÁ÷
-02_IO¸ÅÊö(¸ÅÄî&·ÖÀà)
-03_Ò»ÇÐ½ÔÎª×Ö½Ú
-04_×Ö½ÚÊä³öÁ÷_OutputStreamÀà&FileOutputStreamÀà½éÉÜ
-05_×Ö½ÚÊä³öÁ÷Ð´ÈëÊý¾Ýµ½ÎÄ¼þ
-06_ÎÄ¼þ´æ´¢µÄÔ­ÀíºÍ¼ÇÊÂ±¾´ò¿ªÎÄ¼þµÄÔ­Àí
-07_×Ö½ÚÊä³öÁ÷Ð´¶à¸ö×Ö½ÚµÄ·½·¨
-08_×Ö½ÚÊä³öÁ÷µÄÐøÐ´ºÍ»»ÐÐ
-09_×Ö½ÚÊäÈëÁ÷_InputStreamÀà&FileInputStreamÀà½éÉÜ
-10_×Ö½ÚÊäÈëÁ÷¶ÁÈ¡×Ö½ÚÊý¾Ý
-11_×Ö½ÚÊäÈëÁ÷Ò»´Î¶ÁÈ¡Ò»¸ö×Ö½ÚµÄÔ­Àí
-12_×Ö½ÚÊäÈëÁ÷Ò»´Î¶ÁÈ¡¶à¸ö×Ö½Ú
-13_Á·Ï°_ÎÄ¼þ¸´ÖÆ
-14_Ê¹ÓÃ×Ö½ÚÁ÷¶ÁÈ¡ÖÐÎÄµÄÎÊÌâ
-¿ÎºóÁ·Ï°
-µÚ5½Ú IO×Ö·ûÁ÷
-15_×Ö·ûÊäÈëÁ÷_ReaderÀà&FileReaderÀà½éÉÜ
-16_×Ö·ûÊäÈëÁ÷¶ÁÈ¡×Ö·ûÊý¾Ý
-17_×Ö·ûÊä³öÁ÷_WriterÀà&FileWriterÀà½éÉÜ
-18_×Ö·ûÊä³öÁ÷µÄ»ù±¾Ê¹ÓÃ_Ð´³öµ¥¸ö×Ö·ûµ½ÎÄ¼þ
-19_flush·½·¨ºÍclose·½·¨µÄÇø±ð
-20_×Ö·ûÊä³öÁ÷Ð´Êý¾ÝµÄÆäËû·½·¨
-21_×Ö·ûÊä³öÁ÷µÄÐøÐ´ºÍ»»ÐÐ
-22_Ê¹ÓÃtry_catch_finally´¦ÀíÁ÷ÖÐµÄÒì³£
-23_JDK7ºÍJDK9Á÷ÖÐÒì³£µÄ´¦Àí
-¿ÎºóÁ·Ï°
-µÚ6½Ú Properties¼¯ºÏ
-24_Ê¹ÓÃProperties¼¯ºÏ´æ´¢Êý¾Ý,±éÀúÈ¡³öProperties¼¯ºÏÖÐµÄÊý¾Ý
-25_Properties¼¯ºÏÖÐµÄ·½·¨store
-26_Properties¼¯ºÏÖÐµÄ·½·¨load
-¿ÎºóÁ·Ï°
+ç¬¬2èŠ‚ åŒ¿åå¯¹è±¡
+day07_06_åŒ¿åå¯¹è±¡çš„è¯´æ˜Ž
+day07_07_åŒ¿åå¯¹è±¡ä½œä¸ºæ–¹æ³•çš„å‚æ•°å’Œ
+ç¬¬3èŠ‚ Randomç±»
+day07_08_Randomæ¦‚è¿°å’ŒåŸºæœ¬ä½¿ç”¨
+day07_09_Randomç”ŸæˆæŒ‡å®šèŒƒå›´çš„éšæœºæ•°
+day07_10_Randomç»ƒä¹ ä¸€_ç”Ÿæˆ1-nä¹‹é—´çš„éšæœºæ•°
+day07_11_Randomç»ƒä¹ äºŒ_çŒœæ•°å­—å°æ¸¸æˆ
+è¯¾åŽç»ƒä¹ 
 
-µÚ7½Ú »º³åÁ÷
-02_»º³åÁ÷µÄÔ­Àí
-03_BufferedOutputStream_×Ö½Ú»º³åÊä³öÁ÷
-04_BufferedInputStream_×Ö½Ú»º³åÊäÈëÁ÷
-05_»º³åÁ÷µÄÐ§ÂÊ²âÊÔ_¸´ÖÆÎÄ¼þ
-06_BufferedWriter_×Ö·û»º³åÊä³öÁ÷
-07_BufferedReader_×Ö·û»º³åÊäÈëÁ÷
-08_Á·Ï°_¶ÔÎÄ±¾µÄÄÚÈÝ½øÐÐÅÅÐò
-¿ÎºóÁ·Ï°
-µÚ8½Ú ×ª»»Á÷
-09_×Ö·û±àÂëºÍ×Ö·û¼¯
-10_±àÂëÒý³öµÄÎÊÌâ_FileReader¶ÁÈ¡GBK¸ñÊ½µÄÎÄ¼þ
-11_×ª»»Á÷µÄÔ­Àí
-12_OutputStreamWriter½éÉÜ&´úÂëÊµÏÖ
-13_InputStreamReader½éÉÜ&´úÂëÊµÏÖ
-14_Á·Ï°_×ª»»ÎÄ¼þ±àÂë
-¿ÎºóÁ·Ï°
-µÚ9½Ú ÐòÁÐ»¯Á÷
-15_ÐòÁÐ»¯ºÍ·´ÐòÁÐ»¯µÄ¸ÅÊö
-16_¶ÔÏóµÄÐòÁÐ»¯Á÷_ObjectOutputStream
-17_¶ÔÏóµÄ·´ÐòÁÐ»¯Á÷_ObjectInputStream
-18_transient¹Ø¼ü×Ö_Ë²Ì¬¹Ø¼ü×Ö
-19_InvalidClassExceptionÒì³£_Ô­ÀíºÍ½â¾ö·½°¸
-20_Á·Ï°_ÐòÁÐ»¯¼¯ºÏ
-µÚ10½Ú ´òÓ¡Á÷
-21_´òÓ¡Á÷_¸ÅÊöºÍÊ¹ÓÃ
-1-9 ¾ÍÒµ¿Î(2.0)-ÍøÂç±à³Ì
-µÚ1½Ú ÍøÂçÍ¨ÐÅ¸ÅÊö
-02_Èí¼þ½á¹¹
-03_ÍøÂçÍ¨ÐÅÐ­Òé
-04_ÍøÂçÍ¨ÐÅÐ­Òé·ÖÀà
-05_IPµØÖ·
-06_¶Ë¿ÚºÅ
-¿ÎºóÁ·Ï°
-µÚ2½Ú TCPÐ­Òé
-07_TCPÍ¨ÐÅµÄ¸ÅÊö(ÉÏ)
-08_TCPÍ¨ÐÅµÄ¸ÅÊö(ÏÂ)
-09_TCPÍ¨ÐÅµÄ¿Í»§¶Ë´úÂëÊµÏÖ
-10_TCPÍ¨ÐÅµÄ·þÎñÆ÷¶Ë´úÂëÊµÏÖ
-µÚ3½Ú ×ÛºÏ°¸Àý_ÎÄ¼þÉÏ´«
-11_×ÛºÏ°¸Àý_ÎÄ¼þÉÏ´«µÄÔ­Àí
-12_×ÛºÏ°¸Àý_ÎÄ¼þÉÏ´«°¸ÀýµÄ¿Í»§¶Ë
-13_×ÛºÏ°¸Àý_ÎÄ¼þÉÏ´«°¸ÀýµÄ·þÎñÆ÷¶Ë
-14_×ÛºÏ°¸Àý_ÎÄ¼þÉÏ´«°¸Àý×èÈûÎÊÌâ
-15_×ÛºÏ°¸Àý_ÎÄ¼þÉÏ´«°¸ÀýÓÅ»¯(ÎÄ¼þÃüÃû&Ñ­»·½ÓÊÕ&¶àÏß³ÌÌá¸ßÐ§ÂÊ)
-¿ÎºóÁ·Ï°
-µÚ4½Ú Ä£ÄâBS·þÎñÆ÷°¸Àý
-16_Ä£ÄâBS·þÎñÆ÷·ÖÎö
-17_Ä£ÄâBS·þÎñÆ÷´úÂëÊµÏÖ
-1-10 ¾ÍÒµ¿Î(2.0)-JDK8ÐÂÌØÐÔ
-µÚ1½Ú ³£ÓÃº¯Êý½Ó¿Ú
-		02_º¯ÊýÊ½½Ó¿ÚµÄ¸ÅÄî&º¯ÊýÊ½½Ó¿ÚµÄ¶¨Òå
-03_º¯ÊýÊ½½Ó¿ÚµÄÊ¹ÓÃ
-04_ÐÔÄÜÀË·ÑµÄÈÕÖ¾°¸Àý
-05_Ê¹ÓÃLambdaÓÅ»¯ÈÕÖ¾°¸Àý
-06_º¯ÊýÊ½½Ó¿Ú×÷Îª·½·¨µÄ²ÎÊý°¸Àý
-07_º¯ÊýÊ½½Ó¿Ú×÷Îª·½·¨µÄ·µ»ØÖµÀàÐÍ°¸Àý
-08_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Supplier½Ó¿Ú
-09_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Supplier½Ó¿ÚÁ·Ï°_ÇóÊý×éÔªËØ×î´óÖµ
-10_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Consumer½Ó¿Ú
-11_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Consumer½Ó¿ÚµÄÄ¬ÈÏ·½·¨andThen
-12_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Consumer½Ó¿ÚÁ·Ï°_×Ö·û´®Æ´½ÓÊä³ö
-13_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Predicate½Ó¿Ú
-14_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Predicate½Ó¿Ú_Ä¬ÈÏ·½·¨and
-15_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Predicate½Ó¿Ú_Ä¬ÈÏ·½·¨or&negate
-16_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Predicate½Ó¿ÚÁ·Ï°_¼¯ºÏÐÅÏ¢É¸Ñ¡
-17_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Function½Ó¿Ú
-18_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Function½Ó¿Ú_Ä¬ÈÏ·½·¨andThen
-19_³£ÓÃµÄº¯ÊýÊ½½Ó¿Ú_Function½Ó¿ÚÁ·Ï°_×Ô¶¨Òåº¯ÊýÄ£ÐÍÆ´½Ó
-¿ÎºóÁ·Ï°
-µÚ2½Ú StreamÁ÷Ê½Ë¼Ïë¸ÅÊö
-02_Ê¹ÓÃ´«Í³µÄ·½Ê½,±éÀú¼¯ºÏ,¶Ô¼¯ºÏÖÐµÄÊý¾Ý½øÐÐ¹ýÂË
-03_Ê¹ÓÃStreamÁ÷µÄ·½Ê½,±éÀú¼¯ºÏ,¶Ô¼¯ºÏÖÐµÄÊý¾Ý½øÐÐ¹ýÂË
-04_Á÷Ê½Ë¼Ïë¸ÅÊö
-µÚ3½Ú Á½ÖÖ»ñÈ¡StreamÁ÷µÄ·½Ê½
-05_Á½ÖÖ»ñÈ¡StreamÁ÷µÄ·½Ê½
-06_StreamÁ÷ÖÐµÄ³£ÓÃ·½·¨_forEach
-07_StreamÁ÷ÖÐµÄ³£ÓÃ·½·¨_filter
-08_StreamÁ÷µÄÌØµã_Ö»ÄÜÊ¹ÓÃÒ»´Î
-09_StreamÁ÷ÖÐµÄ³£ÓÃ·½·¨_map
-10_StreamÁ÷ÖÐµÄ³£ÓÃ·½·¨_count
-11_StreamÁ÷ÖÐµÄ³£ÓÃ·½·¨_limit
-
-12_StreamÁ÷ÖÐµÄ³£ÓÃ·½·¨_skip
-13_StreamÁ÷ÖÐµÄ³£ÓÃ·½·¨_concat
-14_Á·Ï°£º¼¯ºÏÔªËØ´¦Àí£¨´«Í³·½Ê½£©
-15_Á·Ï°£º¼¯ºÏÔªËØ´¦Àí£¨Stream·½Ê½£©
-¿ÎºóÁ·Ï°
-µÚ4½Ú ·½·¨ÒýÓÃ
-16_·½·¨ÒýÓÃ»ù±¾½éÉÜ
-17_·½·¨ÒýÓÃ_Í¨¹ý¶ÔÏóÃûÒýÓÃ³ÉÔ±·½·¨
-18_·½·¨ÒýÓÃ_Í¨¹ýÀàÃûÒýÓÃ¾²Ì¬³ÉÔ±·½·¨
-19_·½·¨ÒýÓÃ_Í¨¹ýsuperÒýÓÃ¸¸ÀàµÄ³ÉÔ±·½·¨
-20_·½·¨ÒýÓÃ_Í¨¹ýthisÒýÓÃ±¾ÀàµÄ³ÉÔ±·½·¨
-21_·½·¨ÒýÓÃ_ÀàµÄ¹¹ÔìÆ÷(¹¹Ôì·½·¨)ÒýÓÃ
-22_·½·¨ÒýÓÃ_Êý×éµÄ¹¹ÔìÆ÷ÒýÓÃ
-1-11 Java»ù´¡-µÚ1Ì×ÊÔ¾í
+ç¬¬4èŠ‚ ArrayListé›†åˆ
+day07_12_å¯¹è±¡æ•°ç»„
+day07_13_ArrayListé›†åˆæ¦‚è¿°å’ŒåŸºæœ¬ä½¿ç”¨
+day07_14_ArrayListé›†åˆçš„å¸¸ç”¨æ–¹æ³•å’ŒéåŽ†
+day07_15_ArrayListé›†åˆå­˜å‚¨åŸºæœ¬æ•°æ®ç±»åž‹
+day07_16_ArrayListç»ƒä¹ ä¸€_å­˜å‚¨éšæœºæ•°å­—
+day07_17_ArrayListç»ƒä¹ äºŒ_å­˜å‚¨è‡ªå®šä¹‰å¯¹è±¡
+day07_18_ArrayListç»ƒä¹ ä¸‰_æŒ‰æŒ‡å®šæ ¼å¼éåŽ†é›†åˆå­—ç¬¦ä¸²
+day07_19_ArrayListç»ƒä¹ å››_ç­›é€‰é›†åˆä¸­çš„éšæœºæ•°
+å°èŠ‚æµ‹è¯•
+è¯¾åŽç»ƒä¹ 
+ç¬¬5èŠ‚ Stringç±»
+day08_01_å­—ç¬¦ä¸²æ¦‚è¿°å’Œç‰¹ç‚¹
+day08_02_å­—ç¬¦ä¸²çš„æž„é€ æ–¹æ³•å’Œç›´æŽ¥åˆ›å»º
+day08_03_å­—ç¬¦ä¸²çš„å¸¸é‡æ± 
+day08_04_å­—ç¬¦ä¸²çš„æ¯”è¾ƒç›¸å…³æ–¹æ³•
+day08_05_å­—ç¬¦ä¸²çš„èŽ·å–ç›¸å…³æ–¹æ³•
+day08_06_å­—ç¬¦ä¸²çš„æˆªå–æ–¹æ³•
+day08_07_å­—ç¬¦ä¸²çš„è½¬æ¢ç›¸å…³æ–¹æ³•
+day08_08_å­—ç¬¦ä¸²çš„åˆ†å‰²æ–¹æ³•
+day08_09_ç»ƒä¹ ï¼šæŒ‰æŒ‡å®šæ ¼å¼æ‹¼æŽ¥å­—ç¬¦ä¸²
+day08_10_ç»ƒä¹ ï¼šç»Ÿè®¡è¾“å…¥çš„å­—ç¬¦ä¸²ä¸­å„ç§å­—ç¬¦çš„ä¸ªæ•°
+å°èŠ‚æµ‹è¯•
+ç¬¬6èŠ‚ staticé™æ€
+		day08_11_é™æ€staticå…³é”®å­—æ¦‚è¿°
+day08_12_é™æ€staticå…³é”®å­—ä¿®é¥°æˆå‘˜å˜é‡
+day08_13_é™æ€staticå…³é”®å­—ä¿®é¥°æˆå‘˜æ–¹æ³•
+day08_14_é™æ€staticçš„å†…å­˜å›¾
+day08_15_é™æ€ä»£ç å—
+å°èŠ‚æµ‹è¯•
+ç¬¬7èŠ‚ Arrayså·¥å…·ç±»
+		day08_16_æ•°ç»„å·¥å…·ç±»Arrays
+day08_17_Arraysç»ƒä¹ ï¼šå­—ç¬¦ä¸²å€’åº
+ç¬¬8èŠ‚ Mathç±»
+		day08_18_æ•°å­¦å·¥å…·ç±»Math
+day08_19_Mathç»ƒä¹ ï¼šå°å­¦æ•°å­¦çœŸé¢˜
+è¯¾åŽç»ƒä¹ 
 
 
+1-4 å°±ä¸šè¯¾(2.0)-ç»§æ‰¿ä¸Žå¤šæ€
+ç¬¬1èŠ‚ ç»§æ‰¿
+day09_01_ç»§æ‰¿çš„æ¦‚è¿°
+day09_02_ç»§æ‰¿çš„æ ¼å¼
+day09_03_ç»§æ‰¿ä¸­æˆå‘˜å˜é‡çš„è®¿é—®ç‰¹ç‚¹
+day09_04_åŒºåˆ†å­ç±»æ–¹æ³•ä¸­é‡åçš„ä¸‰ç§å˜é‡
+day09_05_ç»§æ‰¿ä¸­æˆå‘˜æ–¹æ³•çš„è®¿é—®ç‰¹ç‚¹
+day09_06_ç»§æ‰¿ä¸­æ–¹æ³•çš„è¦†ç›–é‡å†™_æ¦‚å¿µä¸Žç‰¹ç‚¹
+day09_07_ç»§æ‰¿ä¸­æ–¹æ³•çš„è¦†ç›–é‡å†™_æ³¨æ„äº‹é¡¹
+day09_08_ç»§æ‰¿ä¸­æ–¹æ³•çš„è¦†ç›–é‡å†™_åº”ç”¨åœºæ™¯
+day09_09_ç»§æ‰¿ä¸­æž„é€ æ–¹æ³•çš„è®¿é—®ç‰¹ç‚¹
+day09_10_superå…³é”®å­—çš„ä¸‰ç§ç”¨æ³•
+day09_11_thiså…³é”®å­—çš„ä¸‰ç§ç”¨æ³•
+day09_12_superä¸Žthiså…³é”®å­—å›¾è§£
+day09_13_Javaç»§æ‰¿çš„ä¸‰ä¸ªç‰¹ç‚¹
+è¯¾åŽç»ƒä¹ 
+ç¬¬2èŠ‚ æŠ½è±¡ç±»
+day09_14_æŠ½è±¡çš„æ¦‚å¿µ
+day09_15_æŠ½è±¡æ–¹æ³•å’ŒæŠ½è±¡ç±»çš„æ ¼å¼
+day09_16_æŠ½è±¡æ–¹æ³•å’ŒæŠ½è±¡ç±»çš„ä½¿ç”¨
+day09_17_æŠ½è±¡æ–¹æ³•å’ŒæŠ½è±¡ç±»çš„æ³¨æ„äº‹é¡¹
+day09_18_å‘çº¢åŒ…æ¡ˆä¾‹_åˆ†æž
+day09_19_å‘çº¢åŒ…æ¡ˆä¾‹_å®žçŽ°
+è¯¾åŽç»ƒä¹ 
+ç¬¬3èŠ‚ æŽ¥å£
+day10_01_æŽ¥å£æ¦‚è¿°ä¸Žç”Ÿæ´»ä¸¾ä¾‹
+day10_02_æŽ¥å£çš„å®šä¹‰åŸºæœ¬æ ¼å¼
+day10_03_æŽ¥å£çš„æŠ½è±¡æ–¹æ³•å®šä¹‰
+day10_04_æŽ¥å£çš„æŠ½è±¡æ–¹æ³•ä½¿ç”¨
+day10_05_æŽ¥å£çš„é»˜è®¤æ–¹æ³•å®šä¹‰
+day10_06_æŽ¥å£çš„é»˜è®¤æ–¹æ³•ä½¿ç”¨
+day10_07_æŽ¥å£çš„é™æ€æ–¹æ³•å®šä¹‰
+day10_08_æŽ¥å£çš„é™æ€æ–¹æ³•ä½¿ç”¨
+day10_09_æŽ¥å£çš„ç§æœ‰æ–¹æ³•å®šä¹‰
+day10_10_æŽ¥å£çš„ç§æœ‰æ–¹æ³•ä½¿ç”¨
+day10_11_æŽ¥å£çš„å¸¸é‡å®šä¹‰å’Œä½¿ç”¨
+day10_12_æŽ¥å£çš„å†…å®¹å°ç»“
+day10_13_ç»§æ‰¿çˆ¶ç±»å¹¶å®žçŽ°å¤šä¸ªæŽ¥å£
+day10_14_æŽ¥å£ä¹‹é—´çš„å¤šç»§æ‰¿
+è¯¾åŽç»ƒä¹ 
+ç¬¬4èŠ‚ å¤šæ€
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+day10_15_å¤šæ€çš„æ¦‚è¿°
+day10_16_å¤šæ€çš„æ ¼å¼ä¸Žä½¿ç”¨
+day10_17_å¤šæ€ä¸­æˆå‘˜å˜é‡çš„ä½¿ç”¨ç‰¹ç‚¹
+day10_18_å¤šæ€ä¸­æˆå‘˜æ–¹æ³•çš„ä½¿ç”¨ç‰¹ç‚¹
+day10_19_ä½¿ç”¨å¤šæ€çš„å¥½å¤„
+day10_20_å¯¹è±¡çš„å‘ä¸Šè½¬åž‹
+day10_21_å¯¹è±¡çš„å‘ä¸‹è½¬åž‹
+day10_22_ç”¨instanceofå…³é”®å­—è¿›è¡Œç±»åž‹åˆ¤æ–­
+day10_23_ç¬”è®°æœ¬USBæŽ¥å£æ¡ˆä¾‹_åˆ†æž
+day10_24_ç¬”è®°æœ¬USBæŽ¥å£æ¡ˆä¾‹_å®žçŽ°
+è¯¾åŽç»ƒä¹ 
+ç¬¬5èŠ‚ finalå…³é”®å­—
+day11_01_finalå…³é”®å­—æ¦‚å¿µä¸Žå››ç§ç”¨æ³•
+day11_02_finalå…³é”®å­—ç”¨äºŽä¿®é¥°ç±»
+day11_03_finalå…³é”®å­—ç”¨äºŽä¿®é¥°æˆå‘˜æ–¹æ³•
+day11_04_finalå…³é”®å­—ç”¨äºŽä¿®é¥°å±€éƒ¨å˜é‡
+day11_05_finalå…³é”®å­—ç”¨äºŽä¿®é¥°æˆå‘˜å˜é‡
+ç¬¬6èŠ‚ æƒé™ä¿®é¥°ç¬¦
+day11_06_å››ç§æƒé™ä¿®é¥°ç¬¦
+ç¬¬7èŠ‚ å†…éƒ¨ç±»
+day11_07_å†…éƒ¨ç±»çš„æ¦‚å¿µä¸Žåˆ†ç±»
+day11_08_æˆå‘˜å†…éƒ¨ç±»çš„å®šä¹‰
+day11_09_æˆå‘˜å†…éƒ¨ç±»çš„ä½¿ç”¨
+day11_10_å†…éƒ¨ç±»çš„åŒåå˜é‡è®¿é—®
+day11_11_å±€éƒ¨å†…éƒ¨ç±»å®šä¹‰
+day11_12_å±€éƒ¨å†…éƒ¨ç±»çš„finalé—®é¢˜
+day11_13_åŒ¿åå†…éƒ¨ç±»
+day11_14_åŒ¿åå†…éƒ¨ç±»çš„æ³¨æ„äº‹é¡¹
+day11_15_ç±»ä½œä¸ºæˆå‘˜å˜é‡ç±»åž‹
+day11_16_æŽ¥å£ä½œä¸ºæˆå‘˜å˜é‡ç±»åž‹
+day11_17_æŽ¥å£ä½œä¸ºæ–¹æ³•çš„å‚æ•°å’Œæˆ–è¿”å›žå€¼
+day11_18_å‘çº¢åŒ…æ¡ˆä¾‹_åˆ†æž
+day11_19_å‘çº¢åŒ…æ¡ˆä¾‹_æ™®é€šçº¢åŒ…å¹³å‡åˆ†å‘
+day11_20_å‘çº¢åŒ…æ¡ˆä¾‹_æ‰‹æ°”çº¢åŒ…éšæœºåˆ†å‘
+è¯¾åŽç»ƒä¹ 

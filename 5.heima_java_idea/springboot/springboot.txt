@@ -1,0 +1,15 @@
+黑马idea
+框架-SpringBoot
+===================================================================================
+lesson5:静态资源访问讲解
+idea:新建myspringboot_test2/src/main/resources文件夹
+鼠标右键resources mark directory as Resources Root
+选中myspringboot_test2/src/main/resources,右键新建static
+选中myspringboot_test2/src/main/resources/static,右键新建imgs
+myspringboot_test2/src/main/resources/static/imgs中保存图片1.jpeg
+===================================================================================
+lesson6:全局异常捕获讲解
+idea:myspringboot_test2/src/main/java/com.ybx下新建javaclass: web.exception.GlobalExceptionHandler
+===================================================================================
+===================================================================================
+===================================================================================
