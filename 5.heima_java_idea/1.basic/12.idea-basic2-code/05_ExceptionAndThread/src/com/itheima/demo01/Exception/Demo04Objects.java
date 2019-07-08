@@ -14,16 +14,24 @@ import java.util.Objects;
  */
 public class Demo04Objects {
     public static void main(String[] args) {
-        method(null);
+        //method1(null);
+        method2(null);
+        //method3(null);
     }
 
-    public static void method(Object obj){
+    public static void method1(Object obj){
         //对传递过来的参数进行合法性判断,判断是否为null
-        /*if(obj == null){
-            throw new NullPointerException("传递的对象的值是null");
-        }*/
-
-        //Objects.requireNonNull(obj);
-        Objects.requireNonNull(obj,"传递的对象的值是null");
+        if(obj == null){
+            throw new NullPointerException("传递的对象的值是null,1111");
+        }
     }
+
+    public static void method2(Object obj){
+        Objects.requireNonNull(obj);
+    }
+
+    public static void method3(Object obj){
+        Objects.requireNonNull(obj,"传递的对象的值是null,3333");
+    }
+
 }

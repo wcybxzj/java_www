@@ -17,7 +17,7 @@ import java.util.Scanner;
                     继续遍历比较
             如果循环结束了,还没有找到重复的用户名,提示用户"恭喜您,注册成功!";
  */
-public class Demo01RegisterException {
+public class Demo01RegisterRuntimeException {
     static String[] usernames = {"张三","李四","王五"};
 
     public static void main(String[] args) {
@@ -27,14 +27,13 @@ public class Demo01RegisterException {
         checkUsername(username);
     }
 
-    //3.定义一个方法,对用户输入的中注册的用户名进行判断
     public static void checkUsername(String username) {
         for (String name : usernames) {
             if(name.equals(username)){
                 //true:用户名已经存在,抛出RegisterException异常,告知用户"亲，该用户名已经被注册";
                 try {
-                    throw new RegisterException("亲，该用户名已经被注册");
-                } catch (RegisterException e) {
+                    throw new RegisterRuntimeException("亲，该用户名已经被注册");
+                } catch (RegisterRuntimeException e) {
                     e.printStackTrace();
                     return; //结束方法 如果不return 下面会输出 "恭喜您,注册成功!"
                 }

@@ -14,8 +14,16 @@ public class Demo01Exception {
             3. 多个异常一次捕获一次处理。
          */
 
-        //1. 多个异常分别处理。
-       /* try {
+        func1();
+        //func2();
+        //func3();
+
+    }
+
+    //1. 多个异常分别处理。
+    public static void func1(){
+        /*
+        try {
             int[] arr = {1,2,3};
             System.out.println(arr[3]);//ArrayIndexOutOfBoundsException: 3
         }catch (ArrayIndexOutOfBoundsException e){
@@ -27,10 +35,16 @@ public class Demo01Exception {
             System.out.println(list.get(3));//IndexOutOfBoundsException: Index 3 out-of-bounds for length 3
         }catch (IndexOutOfBoundsException e){
             System.out.println(e);
-        }*/
+        }
 
+        System.out.println("后续代码!");
+        */
+    }
+
+    public static void func2(){
         //2. 多个异常一次捕获，多次处理。
-        /*try {
+        /*
+        try {
             int[] arr = {1,2,3};
             //System.out.println(arr[3]);//ArrayIndexOutOfBoundsException: 3
             List<Integer> list = List.of(1, 2, 3);
@@ -39,24 +53,31 @@ public class Demo01Exception {
             System.out.println(e);
         }catch (IndexOutOfBoundsException e){
             System.out.println(e);
-        }*/
+        }
+        */
 
         /*
             一个try多个catch注意事项:
-                catch里边定义的异常变量,如果有子父类关系,那么子类的异常变量必须写在上边,否则就会报错
-                ArrayIndexOutOfBoundsException extends IndexOutOfBoundsException
+            catch里边定义的异常变量,如果有子父类关系,那么子类的异常变量必须写在上边,否则就会报错
+              extends IndexOutOfBoundsException
          */
-        /*try {
+
+        /*
+        try {
             int[] arr = {1,2,3};
             //System.out.println(arr[3]);//ArrayIndexOutOfBoundsException: 3
-            List<Integer> list = List.of(1, 2, 3);
+            List<Integer> list = List.of(1, 2, 3);//jdk9
             System.out.println(list.get(3));//IndexOutOfBoundsException: Index 3 out-of-bounds for length 3
         }catch (IndexOutOfBoundsException e){
             System.out.println(e);
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e);
-        }*/
+        }
+        System.out.println("后续代码!");
+        */
+    }
 
+    public static void func3(){
         //3. 多个异常一次捕获一次处理。
         /*try {
             int[] arr = {1,2,3};
@@ -69,11 +90,12 @@ public class Demo01Exception {
 
         //运行时异常被抛出可以不处理。即不捕获也不声明抛出。
         //默认给虚拟机处理,终止程序,什么时候不抛出运行时异常了,在来继续执行程序
+        /*
         int[] arr = {1,2,3};
         System.out.println(arr[3]);//ArrayIndexOutOfBoundsException: 3
         List<Integer> list = List.of(1, 2, 3);
         System.out.println(list.get(3));//IndexOutOfBoundsException: Index 3 out-of-bounds for length 3
-
         System.out.println("后续代码!");
+        */
     }
 }

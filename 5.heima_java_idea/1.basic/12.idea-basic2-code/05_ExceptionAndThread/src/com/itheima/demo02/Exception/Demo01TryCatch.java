@@ -26,7 +26,8 @@ public class Demo01TryCatch {
             //可能产生异常的代码
             readFile("d:\\a.tx");
             System.out.println("资源释放");
-        }catch (IOException e){//try中抛出什么异常对象,catch就定义什么异常变量,用来接收这个异常对象
+        }catch (IOException e){
+            //try中抛出什么异常对象, catch就定义什么异常变量, 用来接收这个异常对象
             //异常的处理逻辑,异常异常对象之后,怎么处理异常对象
             //System.out.println("catch - 传递的文件后缀不是.txt");
 
@@ -35,7 +36,8 @@ public class Demo01TryCatch {
                  String getMessage() 返回此 throwable 的简短描述。
                  String toString() 返回此 throwable 的详细消息字符串。
                  void printStackTrace()  JVM打印异常对象,默认此方法,打印的异常信息是最全面的
-             */
+            */
+
             //System.out.println(e.getMessage());//文件的后缀名不对
             //System.out.println(e.toString());//重写Object类的toString java.io.IOException: 文件的后缀名不对
             //System.out.println(e);//java.io.IOException: 文件的后缀名不对

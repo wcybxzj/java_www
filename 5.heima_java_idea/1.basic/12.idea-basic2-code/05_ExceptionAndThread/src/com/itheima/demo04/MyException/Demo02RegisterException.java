@@ -22,22 +22,28 @@ public class Demo02RegisterException {
     static String[] usernames = {"张三","李四","王五"};
 
     public static void main(String[] args) {
-        //2.使用Scanner获取用户输入的注册的用户名(前端,页面)
+
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入您要注册的用户名:");
         String username = sc.next();
-        checkUsername(username);
+
+        try{
+            checkUsername(username);
+        } catch (RegisterException e) {
+            e.printStackTrace();
+            //return; //结束方法 如果不return 下面会输出 "恭喜您,注册成功!"
+        }
 
     }
 
     //3.定义一个方法,对用户输入的中注册的用户名进行判断
-    public static void checkUsername(String username)  {
+    public static void checkUsername(String username) throws RegisterException {
         //遍历存储已经注册过用户名的数组,获取每一个用户名
         for (String name : usernames) {
             //使用获取到的用户名和用户输入的用户名比较
             if(name.equals(username)){
                 //true:用户名已经存在,抛出RegisterException异常,告知用户"亲，该用户名已经被注册";
-                throw new RegisterException("亲，该用户名已经被注册");//抛出运行期异常,无需处理,交给JVM处理,中断处理
+                throw new RegisterException("亲，该用户名已经被注册");//编译时异常必须用户来处理
             }
         }
 

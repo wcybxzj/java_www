@@ -12,7 +12,7 @@ public class Demo02Exception {
 
     /*
         定义一个方法,获取数组指定索引处的元素
-        参数:
+        参数:]]]
             int[] arr
             int index
      */
