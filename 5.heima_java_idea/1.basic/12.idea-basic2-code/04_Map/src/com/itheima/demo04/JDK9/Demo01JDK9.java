@@ -17,6 +17,7 @@ import java.util.Set;
  */
 public class Demo01JDK9 {
     public static void main(String[] args) {
+    /*
         List<String> list = List.of("a", "b", "a", "c", "d");
         System.out.println(list);//[a, b, a, c, d]
         //list.add("w");//UnsupportedOperationException:不支持操作异常
@@ -30,5 +31,6 @@ public class Demo01JDK9 {
         Map<String, Integer> map = Map.of("张三", 18, "李四", 19, "王五", 20);
         System.out.println(map);//{王五=20, 李四=19, 张三=18}
         //map.put("赵四",30);//UnsupportedOperationException:不支持操作异常
+    */
     }
 }

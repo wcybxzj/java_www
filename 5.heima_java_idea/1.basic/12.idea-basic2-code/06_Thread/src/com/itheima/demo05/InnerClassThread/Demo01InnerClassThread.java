@@ -17,8 +17,10 @@ package com.itheima.demo05.InnerClassThread;
  */
 public class Demo01InnerClassThread {
     public static void main(String[] args) {
-        //线程的父类是Thread
+        //最原始的使用线程的方法:
+        // 线程的父类是Thread
         // new MyThread().start();
+        //===========================================================================
         new Thread(){
             //重写run方法,设置线程任务
             @Override
@@ -28,6 +30,8 @@ public class Demo01InnerClassThread {
                 }
             }
         }.start();
+
+        //===========================================================================
 
         //线程的接口Runnable
         //Runnable r = new RunnableImpl();//多态
@@ -42,6 +46,8 @@ public class Demo01InnerClassThread {
         };
         new Thread(r).start();
 
+        //===========================================================================
+
         //简化接口的方式
         new Thread(new Runnable(){
             //重写run方法,设置线程任务
@@ -52,5 +58,6 @@ public class Demo01InnerClassThread {
                 }
             }
         }).start();
+
     }
 }

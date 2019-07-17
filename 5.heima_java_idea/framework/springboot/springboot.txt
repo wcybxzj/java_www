@@ -1,0 +1,34 @@
+黑马idea
+框架-SpringBoot
+===================================================================================
+lesson5:静态资源访问讲解
+idea:新建myspringboot_test2/src/main/resources文件夹
+鼠标右键resources mark directory as Resources Root
+选中myspringboot_test2/src/main/resources,右键新建static
+选中myspringboot_test2/src/main/resources/static,右键新建imgs
+myspringboot_test2/src/main/resources/static/imgs中保存图片1.jpeg
+===================================================================================
+lesson6:全局异常捕获讲解
+idea:myspringboot_test2/src/main/java/com.ybx下新建javaclass: web.exception.GlobalExceptionHandler
+===================================================================================
+lesson2-12:配置多个数据源
+spingboot-multi:
+application.properties中的数据配置<--Mappper(接口)<--datasource
+service<--controller
+1.datasource
+1个应用只能有1个数据源和1个主事务
+所以
+datasource/DataSource1做主数据源了+主事务
+datasource/DataSource2就不能做主数据源+主事务
+===================================================================================
+https://mvnrepository.com/
+===================================================================================
+lesson2-15:
+AOP使用切面统一管理日志
+先创建package在com.gyf/aspect
+new Aspect名字是WebLogAspect
+===================================================================================
+===================================================================================
+===================================================================================
+
+

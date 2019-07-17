@@ -15,6 +15,7 @@ import java.util.List;
  */
 public class DouDiZhu {
     public static void main(String[] args) {
+        /*
         //1.准备牌
         //创建一个Map集合,存储牌的索引和组装好的牌
         HashMap<Integer,String> poker = new HashMap<>();
@@ -23,6 +24,9 @@ public class DouDiZhu {
         //定义两个集合,存储花色和牌的序号
         List<String> colors = List.of("♠", "♥", "♣", "♦");
         List<String> numbers = List.of("2", "A", "K", "Q", "J", "10", "9", "8", "7", "6", "5", "4", "3");
+        */
+
+        /*
         //把大王和小王存储到集合中
         //定义一个牌的索引
         int index = 0;
@@ -42,17 +46,22 @@ public class DouDiZhu {
         }
         //System.out.println(poker);
         //System.out.println(pokerIndex);
+        */
+
 
         /*
             2.洗牌
             使用Collections中的方法shuffle(List)
          */
+        /*
         Collections.shuffle(pokerIndex);
         //System.out.println(pokerIndex);
+        */
 
         /*
             3.发牌
          */
+        /*
         //定义4个集合,存储玩家牌的索引,和底牌的索引
         ArrayList<Integer> player01 = new ArrayList<>();
         ArrayList<Integer> player02 = new ArrayList<>();
@@ -76,25 +85,31 @@ public class DouDiZhu {
                 player03.add(in);
             }
         }
+        */
+
 
         /*
             4.排序
             使用Collections中的方法sort(List)
             默认是升序排序
          */
+        /*
         Collections.sort(player01);
         Collections.sort(player02);
         Collections.sort(player03);
         Collections.sort(diPai);
+        */
 
         /*
             5.看牌
             调用看牌的方法
          */
+        /*
         lookPoker("刘德华",poker,player01);
         lookPoker("周润发",poker,player02);
         lookPoker("周星驰",poker,player03);
         lookPoker("底牌",poker,diPai);
+        */
     }
 
     /*

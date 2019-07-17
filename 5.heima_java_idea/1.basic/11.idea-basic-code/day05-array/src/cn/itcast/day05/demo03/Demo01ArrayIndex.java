@@ -10,12 +10,11 @@ ArrayIndexOutOfBoundsException
 原因：索引编号写错了。
 解决：修改成为存在的正确索引编号。
  */
-        public class Demo01ArrayIndex {
+public class Demo01ArrayIndex {
+      public static void main(String[] args) {
+        int[] array = { 15, 25, 35 };
 
-            public static void main(String[] args) {
-                int[] array = { 15, 25, 35 };
-
-                System.out.println(array[0]); //15
+        System.out.println(array[0]); //15
         System.out.println(array[1]); // 25
         System.out.println(array[2]); // 35
 

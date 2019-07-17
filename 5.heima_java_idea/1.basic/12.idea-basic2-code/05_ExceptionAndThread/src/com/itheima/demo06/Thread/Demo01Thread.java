@@ -21,7 +21,7 @@ public class Demo01Thread {
         mt.start();
 
         for (int i = 0; i <20 ; i++) {
-            System.out.println("main:"+i);
+            System.out.println("main线程打印:"+i);
         }
     }
 }

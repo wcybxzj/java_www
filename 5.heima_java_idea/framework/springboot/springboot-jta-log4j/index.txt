@@ -1,0 +1,1 @@
+application.properties<--dbconfig/DBConfig<--datasource(这里没有配置事务功能)
