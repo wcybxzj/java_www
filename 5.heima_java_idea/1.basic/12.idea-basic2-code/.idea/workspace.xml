@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="849e0e18-156f-4be7-9472-bf5e0547cb60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11.idea-basic-code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11.idea-basic-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11.idea-basic-code/day05-array/src/cn/itcast/day05/demo03/Demo01ArrayIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11.idea-basic-code/day05-array/src/cn/itcast/day05/demo03/Demo01ArrayIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_ListAndSet/src/com/itheima/demo05/Collections/Demo02Sort(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/03_ListAndSet/src/com/itheima/demo05/Collections/Demo02Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Map/src/com/itheima/demo01/Map/Demo02KeySet(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Map/src/com/itheima/demo01/Map/Demo02KeySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Map/src/com/itheima/demo04/JDK9/Demo01JDK9.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Map/src/com/itheima/demo04/JDK9/Demo01JDK9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Map/src/com/itheima/demo06/Test/DouDiZhu.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_Map/src/com/itheima/demo06/Test/DouDiZhu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_ExceptionAndThread/src/com/itheima/demo06/Thread/Demo01Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/com/itheima/demo06/Thread/Demo01Thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_ExceptionAndThread/src/com/itheima/demo06/Thread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/05_ExceptionAndThread/src/com/itheima/demo06/Thread/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo01/getName/Demo01GetThreadName.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo01/getName/Demo01GetThreadName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo01/getName/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo01/getName/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo04/Runnable/Demo01Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo04/Runnable/Demo01Runnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo05/InnerClassThread/Demo01InnerClassThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo05/InnerClassThread/Demo01InnerClassThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo10/WaitAndNotify/Demo01WaitAndNotify(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/06_Thread/src/com/itheima/demo10/WaitAndNotify/Demo01WaitAndNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/mysprintboot_test1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test1/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/java/com/ybx/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/java/com/ybx/model/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/java/com/ybx/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/controller/AliPayController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/resources/static/imgs/1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/main/resources/templates/stu/list.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/mysprintboot_test2/src/test/java/com/ybx/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/springboot.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="849e0e18-156f-4be7-9472-bf5e0547cb60" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,11 +154,11 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1840" />
-    <option name="y" value="23" />
-    <option name="width" value="80" />
-    <option name="height" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="458" />
+    <option name="y" value="91" />
+    <option name="width" value="1281" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,7 +334,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,17 +459,18 @@
       <workItem from="1562664548707" duration="11000" />
       <workItem from="1562743332374" duration="10471000" />
       <workItem from="1563284841190" duration="347000" />
+      <workItem from="1563330499057" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42182000" />
+    <option name="totallyTimeSpent" value="42381000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1840" y="23" width="80" height="22" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.020342613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

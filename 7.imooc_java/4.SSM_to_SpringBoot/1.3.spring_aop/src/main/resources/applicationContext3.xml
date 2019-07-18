@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--开始准备-->
+
+    <!--配置目标类-->
+    <bean id="studentDao" class="com.imooc.aop.demo5.StudentDaoImpl"/>
+    <bean id="customerDao" class="com.imooc.aop.demo5.CustomerDao"/>
+
+    <!-- 配置增强-->
+    <bean id="myBeforeAdvice" class="com.imooc.aop.demo5.MyBeforeAdvice"/>
+    <bean id="myAroundAdvice" class="com.imooc.aop.demo5.MyAroundAdvice"/>
+
+    <!--结束准备-->
+
+    <!--配置基于Bean名称的自动代理-->
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <!--配置Bean名称  *Dao去找到前面目标类中 studentDao和customerDao -->
+        <property name="beanNames" value="*Dao"/>
+        <!--配置拦截的名称 对上面指定的类使用哪种增强-->
+        <property name="interceptorNames" value="myBeforeAdvice"/>
+    </bean>
+</beans>

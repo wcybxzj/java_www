@@ -1,0 +1,41 @@
+============================================================
+创建maven项目 maven-archetype-webapp
+创建目录myspring_aop/src/main/java 将java标记为Resources Root
+myspring_aop/src/main/java 下创建com.immoc.aop.demo1
+============================================================
+第2章 AOP的底层实现
+Spring实现AOP的原理
+
+情况1:目标类实现接口,spring使用JDK动态代理对类的方法进行增强
+代码:demo1
+
+方法2:目标类没有实现接口,使用CGLIB生成代理
+原理是字节码增强,它会生成一个类
+这里需要用到spring的多个包
+代码:demo2
+
+总结:推荐使用接口来实现解耦
+不要使用final的方法因为这样的话就不能被代理，因为无法进行覆盖
+-JDK动态代理,是真针对接口生成子类,接口中的方法不能使用final进行覆盖
+-CGLib是针对目标类生成子类,因此类或方法不能使用final
+
+Spring只支持方法连接点,不提供属性链接点
+简单而言Spring只能对目标类的方法进行增强,不能给类增加属性
+============================================================
+第3章 Spring的一般切面编程案例
+
+demo3:对目标类的所有方法进行增强
+SpingAop只需要手写先做前期准备,
+选中resources new XMLConfigurationFile中Spring file
+名字是applicationContext.xml(resources是资源)
+
+lesson3-8
+demo4:对目标类的指定方法进行增强
+============================================================
+第4章 Spring的传统AOP的动态代理
+4-1 Spring的传统AOP的自动代理的方式的介绍
+
+4-2 Spring的传统AOP的基于Bean名称的自动代理
+虽然比之前稍微灵活,但是如果要增强目标类的特定方法一样还是不方便
+
+4-3 Spring的传统AOP的基于切面信息的自动代理

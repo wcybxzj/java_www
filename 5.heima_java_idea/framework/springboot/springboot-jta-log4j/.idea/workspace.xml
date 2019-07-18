@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0594924-53de-4905-ae3a-9cd38b572f28" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/11.idea-basic-code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/11.idea-basic-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/11.idea-basic-code/day05-array/src/cn/itcast/day05/demo03/Demo01ArrayIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/11.idea-basic-code/day05-array/src/cn/itcast/day05/demo03/Demo01ArrayIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/03_ListAndSet/src/com/itheima/demo05/Collections/Demo02Sort(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/03_ListAndSet/src/com/itheima/demo05/Collections/Demo02Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/04_Map/src/com/itheima/demo01/Map/Demo02KeySet(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/04_Map/src/com/itheima/demo01/Map/Demo02KeySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/04_Map/src/com/itheima/demo04/JDK9/Demo01JDK9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/04_Map/src/com/itheima/demo04/JDK9/Demo01JDK9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/04_Map/src/com/itheima/demo06/Test/DouDiZhu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/04_Map/src/com/itheima/demo06/Test/DouDiZhu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/05_ExceptionAndThread/src/com/itheima/demo06/Thread/Demo01Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/05_ExceptionAndThread/src/com/itheima/demo06/Thread/Demo01Thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/05_ExceptionAndThread/src/com/itheima/demo06/Thread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/05_ExceptionAndThread/src/com/itheima/demo06/Thread/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo01/getName/Demo01GetThreadName.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo01/getName/Demo01GetThreadName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo01/getName/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo01/getName/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo04/Runnable/Demo01Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo04/Runnable/Demo01Runnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo05/InnerClassThread/Demo01InnerClassThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo05/InnerClassThread/Demo01InnerClassThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo10/WaitAndNotify/Demo01WaitAndNotify(1).java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.basic/12.idea-basic2-code/06_Thread/src/com/itheima/demo10/WaitAndNotify/Demo01WaitAndNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/mysprintboot_test1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test1/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/java/com/ybx/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/java/com/ybx/model/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/java/com/ybx/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/controller/AliPayController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/java/com/ybx/web/exception/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/resources/static/imgs/1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/main/resources/templates/stu/list.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/mysprintboot_test2/src/test/java/com/ybx/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../springboot/springboot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,7 +14,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gyf/aspect/WebLogAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboottest2.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,8 +92,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="35" />
+    <option name="x" value="8" />
+    <option name="y" value="38" />
     <option name="width" value="1920" />
     <option name="height" value="967" />
   </component>
@@ -121,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,48 +113,12 @@
             </path>
             <path>
               <item name="springboot-jta-log4j" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-jta-log4j" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-jta-log4j" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-jta-log4j" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-jta-log4j" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-jta-log4j" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-jta-log4j" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-jta-log4j" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gyf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-jta-log4j" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-jta-log4j" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gyf" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-jta-log4j" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -420,11 +367,12 @@
       <workItem from="1529542305358" duration="7968000" />
       <workItem from="1529562486686" duration="8528000" />
       <workItem from="1563275626067" duration="7386000" />
+      <workItem from="1563345233685" duration="1728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27853000" />
+    <option name="totallyTimeSpent" value="29581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,19 +384,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="35" width="1920" height="967" extended-state="0" />
+    <frame x="8" y="38" width="1920" height="967" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17665952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17880085" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3598131" />
@@ -462,8 +408,9 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.43246445" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.40521327" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -475,6 +422,8 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Maven" order="11" />
+      <window_info anchor="right" id="SciView" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,20 +607,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gyf/aspect/WebLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="462">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springboottest2.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="438">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
         </state>
       </provider>
     </entry>
