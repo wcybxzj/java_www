@@ -19,18 +19,18 @@ public class Demo04Objects {
         //method3(null);
     }
 
-    public static void method1(Object obj){
+    public static void method1(Object obj) {
         //对传递过来的参数进行合法性判断,判断是否为null
         if(obj == null){
             throw new NullPointerException("传递的对象的值是null,1111");
         }
     }
 
-    public static void method2(Object obj){
+    public static void method2(Object obj) {
         Objects.requireNonNull(obj);
     }
 
-    public static void method3(Object obj){
+    public static void method3(Object obj) {
         Objects.requireNonNull(obj,"传递的对象的值是null,3333");
     }
 

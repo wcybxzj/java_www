@@ -31,10 +31,11 @@ public class Demo01Exception {
     //Exception:编译期异常,进行编译(写代码)java程序出现的问题
     //======================================================================
     //1.异常如果不被捕获程序无法继续执行
-    public static void func1(){
+    public static void func1() {
         /*
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");//用来格式化日期
         Date date = null;
+        //parse抛出异常所以func1要么try{}catch()捕获, 要么func1() throw exception
         date = sdf.parse("1999-0909");//把字符串格式的日期,解析为Date格式的日期
         System.out.println(date);
         System.out.println("后续代码");
@@ -45,7 +46,7 @@ public class Demo01Exception {
     //Exception:编译期异常,进行编译(写代码)java程序出现的问题
     //======================================================================
     //2.异常被捕获可以继续执行
-    public static void func2(){
+    public static void func2() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");//用来格式化日期
         Date date = null;
         try {
@@ -60,7 +61,7 @@ public class Demo01Exception {
     //======================================================================
     //RuntimeException:运行期异常,java程序运行过程中出现的问题
     //======================================================================
-    public static void func3(){
+    public static void func3() {
         int[] arr = {1,2,3};
         System.out.println(arr[0]);
         try {

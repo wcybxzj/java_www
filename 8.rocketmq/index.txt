@@ -1,0 +1,30 @@
+1.rocketmq官网
+cd soft
+cd rocketmq
+vim runvroker.sh
+JAVA_OPT="${JAVA_OPT} -server -Xms1g -Xmx1g -Xmn1g"
+
+vim runserver.sh
+JAVA_OPT="${JAVA_OPT} -server -Xms1g -Xmx1g -Xmn1g -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m"
+==================== ==================== ==================== ====================
+Start Name Server
+nohup sh bin/mqnamesrv &
+tail -f ~/logs/rocketmqlogs/namesrv.log
+
+==================== ==================== ==================== ====================
+Start Broker
+nohup sh bin/mqbroker -n localhost:9876 autoCreateTopicEnable=true &
+tail -f ~/logs/rocketmqlogs/broker.log
+
+==================== ==================== ==================== ====================
+Send & Receive Messages
+export NAMESRV_ADDR=localhost:9876
+sh bin/tools.sh org.apache.rocketmq.example.quickstart.Producer
+
+sh bin/tools.sh org.apache.rocketmq.example.quickstart.Consumer
+==================== ==================== ==================== ====================
+sh bin/mqshutdown broker
+sh bin/mqshutdown namesrv
+===================================================================================
+===================================================================================
+

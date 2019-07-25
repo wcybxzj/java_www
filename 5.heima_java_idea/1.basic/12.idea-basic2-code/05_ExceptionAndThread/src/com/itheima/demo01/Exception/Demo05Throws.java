@@ -30,13 +30,11 @@ public class Demo05Throws {
         //readFile("/tmp/a.txt");
         readFile("/tmp/b.txt");
         //readFile("/tmp/b.html");
-
     }
 
     //对路径进行 进行合法性判断
     //FileNotFoundException不用声明, 因为它是IOException的子类
     public static void readFile(String fileName) throws FileNotFoundException, IOException {
-
         if (!fileName.endsWith(".txt")){
             throw new IOException("文件的后缀名不对");
         }

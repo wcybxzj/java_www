@@ -5,7 +5,7 @@ package com.itheima.demo08.Synchronized;
 
     解决线程安全问题的二种方案:使用同步方法
     使用步骤:
-        1.把访问了共享数据的代码抽取出来,放到一个方法中
+        1.把访问了共享数据的代码抽取出来,
         2.在方法上添加synchronized修饰符
 
     格式:定义方法的格式
@@ -25,6 +25,7 @@ public class RunnableImpl implements Runnable{
         //使用死循环,让卖票操作重复执行
         while(true){
             payTicketStatic();
+            //payTicket();
         }
     }
 
@@ -35,6 +36,7 @@ public class RunnableImpl implements Runnable{
         this是创建对象之后产生的,静态方法优先于对象
         静态方法的锁对象是本类的class属性-->class文件对象(反射)
      */
+    //static方法中变量需要时static
     public static /*synchronized*/ void payTicketStatic(){
         synchronized (RunnableImpl.class){
             //先判断票是否存在
