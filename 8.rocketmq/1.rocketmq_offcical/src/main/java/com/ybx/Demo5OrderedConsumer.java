@@ -10,7 +10,7 @@ import org.apache.rocketmq.common.message.MessageExt;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
-public class OrderedConsumer {
+public class Demo5OrderedConsumer {
     public static void main(String[] args) throws Exception {
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("example_group_name");
 
