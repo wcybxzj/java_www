@@ -1,0 +1,58 @@
+3-1 SpringMVC使用-基于XML配置(上)
+
+步骤1:
+	SpringMVC基础配置
+步骤2:
+	XML配置Controller, HandlerMapping组件映射
+步骤3:
+	XML配置ViewResolver 组件映射
+=================== 1.idea创建项目======================
+File->new->project->maven->
+jdk1.8->crreate from archetype->mavem-archetype-webapp
+
+GroupId: com.imooc
+ArtifactId: SpringMVCTest
+
+/Users/ybx/soft/apache-maven-3.6.1
+
+project name: SpringMVCTest
+project location: /Users/ybx/www/java_www/7.imooc_java/4.SSM_to_SpringBoot/step2/1.begin_springmvc/SpringMVCTest
+
+启动后enable import change
+
+创建dir SpringMVCTest/src/main/java 并且 Mark Directory as Source root
+=================== 2.pom.xml=========================
+<dependencies>
+	<!--导入spring mvc jar-->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+		<version>4.3.1.RELEASE</version>
+	</dependency>
+</dependencies>
+=================== 3.web.xml ==========================
+用处:http->servlet->springmvc
+src/main/webapp/WEB-INF/web.xml
+=================== 4.创建spring-mvc.xml ================
+用处1:url->handler->java类
+创建resources 目录 设置成Resource root
+new->XML Configure file->Spring Config
+
+用处2:将handler中的逻辑视图转成具体的物理视图文件
+=================== 5.创建handler=========================
+创建java class MyHandler
+=====================6.添加视图===========================
+src/webapp/show.jsp
+=====================7.idea使用tomcat local 运行==========
+Deployment选项卡
+add artifat 用的xxx:war
+applicaiton context设置成空
+==========================================================
+http://127.0.0.1:8080/show.jsp
+没有显示内容因为直接访问jsp没有经过handler,所以MyHandler中设置的变量没有加载
+
+从url->handler中找到映射关系
+http://127.0.0.1:8080/test
+TOM
+==========================================================
+==========================================================

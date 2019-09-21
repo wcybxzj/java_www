@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--url映射到Handler-->
+    <bean id="handlerMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <!--配置mapping-->
+        <property name="mappings">
+            <props>
+                <!--配置test请求对应的handler-->
+                <prop key="/test">testHandler</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--将handler对应到java类去-->
+    <bean id="testHandler" class="com.imooc.handler.MyHandler"></bean>
+
+    <!--
+    配置视图解析器
+
+    用处:将逻辑视图 转换成 物理视图
+    将class MyHandler中的 show 逻辑视图转换成show.jsp 物理视图
+
+    prefix是 /
+    suffix是 .jsp
+
+    所以show.jsp 对应 main/webapp/WEB-INF/show.jsp
+    -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--前缀-->
+        <property name="prefix" value="/"></property>
+        <!--后缀-->
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+
+</beans>
