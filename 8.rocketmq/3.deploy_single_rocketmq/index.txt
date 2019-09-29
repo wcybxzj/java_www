@@ -1,3 +1,5 @@
+单namserver-broker
+
 1.rocketmq官网
 cd soft
 cd rocketmq
@@ -8,19 +10,22 @@ vim runserver.sh
 JAVA_OPT="${JAVA_OPT} -server -Xms1g -Xmx1g -Xmn1g -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m"
 ==================== ==================== ==================== ====================
 Start Name Server
+
+cd ~/soft/rocketmq-all-4.3.2-bin-release
 nohup sh bin/mqnamesrv &
 tail -f ~/logs/rocketmqlogs/namesrv.log
 
 ==================== ==================== ==================== ====================
 Start Broker
-nohup sh bin/mqbroker -c ~/www/java_www/8.rocketmq/broker.conf  -n localhost:9876 &
+cd ~/soft/rocketmq-all-4.3.2-bin-release
+nohup sh bin/mqbroker -c ~/www/java_www/8.rocketmq/3.deploy_single_rocketmq/broker.conf  -n localhost:9876 &
 tail -f ~/logs/rocketmqlogs/broker.log
 
 ==================== ==================== ==================== ====================
 Send & Receive Messages
+cd ~/soft/rocketmq-all-4.3.2-bin-release
 export NAMESRV_ADDR=localhost:9876
 sh bin/tools.sh org.apache.rocketmq.example.quickstart.Producer
-
 sh bin/tools.sh org.apache.rocketmq.example.quickstart.Consumer
 ==================== ==================== ==================== ====================
 sh bin/mqshutdown broker
