@@ -1,7 +1,6 @@
 单nameserver-2主broker
 
 Start Name Server
-
 cd ~/soft/rocketmq-all-4.3.2-bin-release
 
 nohup sh bin/mqnamesrv -c /Users/ybx/www/java_www/8.rocketmq/4.deploy_cluster_rocketmq/2m-noslave/namserver-a &
@@ -12,9 +11,9 @@ tail -f ~/logs/rocketmqlogs/namesrv.log
 ==================== ==================== ==================== ====================
 Start Broker1
 cd ~/soft/rocketmq-all-4.3.2-bin-release
-nohup sh bin/mqbroker -c ~/www/java_www/8.rocketmq/4.deploy_cluster_rocketmq/2m-noslave/broker-a.properties  -n localhost:9876 &
+nohup sh bin/mqbroker -c ~/www/java_www/8.rocketmq/4.deploy_cluster_rocketmq/2m-noslave/broker-a.properties  -n 127.0.0.1:9876 127.0.0.1:9877 &
 tail -f ~/logs/rocketmqlogs/broker.log
 
 Start Broker2
-nohup sh bin/mqbroker -c ~/www/java_www/8.rocketmq/4.deploy_cluster_rocketmq/2m-noslave/broker-b.properties  -n localhost:9876 &
+nohup sh bin/mqbroker -c ~/www/java_www/8.rocketmq/4.deploy_cluster_rocketmq/2m-noslave/broker-b.properties  -n 127.0.0.1:9876 127.0.0.1:9877 &
 tail -f ~/logs/rocketmqlogs/broker.log
